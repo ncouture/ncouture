@@ -32,7 +32,7 @@
 
       Ready to transform your cloud? Let's talk.
       
-      <a href="https://calendar.app.google/VcEv4fiWqvNEsbc37">Schedule a 30 to 60 minutes video call with me in less than 5 clicks today</a>
+      [Schedule a 30 to 60 minutes video call with me in less than 5 clicks today](https://calendar.app.google/VcEv4fiWqvNEsbc37)
 
       Nicolas Couture - Your Cloud Transformation Partner
       <a href="mailto:work@stormvault.net">work@stormvault.net</a>
