@@ -5,7 +5,7 @@
   </div>
   <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img width="390" src="https://github-readme-stats.vercel.app/api?username=ncouture&theme=tokyo-night&count_private=true&show_icons=true&rank_icon=github&locale=en" alt="ncouture's GitHub Stats" />
-    <img width="280" src="https://github-readme-stats.vercel.app/api/top-langs?username=ncouture&theme=tokyo-night&layout=donut&hide=c,css,c++,HTML,php,objective-c,perl,ClassASP&langs_count=5&border_radius=10&show_icons=true&locale=en" alt="ncouture's Most Used Languages" />
+    <img width="280" src="https://github-readme-stats.vercel.app/api/top-langs?username=ncouture&theme=tokyo-night&layout=donut&hide=C,Css,C++,Php,Objective-C,Perl,ClassASP&langs_count=10&border_radius=10&show_icons=true&locale=en" alt="ncouture's Most Used Languages" />
   </div>
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=ncouture&theme=tokyo-night&hide_border=true" alt="Activity graph">
