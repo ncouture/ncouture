@@ -27,6 +27,17 @@
 
   <hr style="border: none; height: 1px; background-color: #ccc; margin: 20px 0; width: 100%;">
   <div style="text-align: center;">
+    <p>
+      I'm not here to sell you magic; I'm here to roll up my sleeves and help you to build the cloud infrastructure your business deserves.
+
+      Ready to transform your cloud? Let's talk.
+      
+      <a href="https://calendar.app.google/VcEv4fiWqvNEsbc37">Schedule a 30 to 60 minutes video call with me in less than 5 clicks today</a>
+
+      Nicolas Couture - Your Cloud Transformation Partner
+      <a href="mailto:work@stormvault.net">work@stormvault.net</a>
+      <a href="tel:1-877-747-3969">1-877-747-3969</a>
+    </p>
     <p>👀 </p>
     <p>🌱 I've been working extensively with Python, Node.js, and Spring Boot, and I enjoy creating innovative tools and fun projects.</p>
     <p>💞️ Feel free to submit PRs to improve my projects and make them even better.</p>
