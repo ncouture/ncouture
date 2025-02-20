@@ -3,13 +3,17 @@
     <p>Visitor count</p>
     <img src="https://profile-counter.glitch.me/ncouture/count.svg" alt="Visitor's Count" />
   </div>
-  <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-    <img width="390" src="https://github-readme-stats.vercel.app/api?username=ncouture&theme=tokyo-night&count_private=true&show_icons=true&rank_icon=github&locale=en" alt="ncouture's GitHub Stats" />
-    <img width="280" src="https://github-readme-stats.vercel.app/api/top-langs?username=ncouture&theme=tokyo-night&layout=donut&hide=c%%2B%2B,lua,css,html,perl,go,c%2B%2B,c,max,oz,objective-c,assembly,tex&langs_count=5&border_radius=5&show_icons=true&locale=en" alt="ncouture's Most Used Languages" />
-  </div>
+
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=ncouture&theme=tokyo-night&hide_border=true" alt="Activity graph">
   </a>
+  <div style="text-align: center;">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="output/github-snake-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="output/github-snake.svg">
+      <img alt="Shows a snake consuming the squares from the rootiest contributions graph." src="output/github-snake.svg">
+    </picture>
+  </div>
 
   <div style="text-align: center;">
     <h2>Nicolas Couture</h2>
@@ -73,7 +77,9 @@ Ready to transform your cloud? Let's talk.
 [Schedule a free video call with me in less than 5 clicks today](https://calendar.app.google/2S5gpNuuqa1p5MZf8)
 
 [Nicolas Couture](https://linkedin.com/in/nicolascouture) - **Your Cloud Transformation Partner**
+
 [work@stormvault.net](mailto:work@stormvault.net)
+
 [tel:1-877-747-3969](1-877-747-3969)
   </p>
 </div>
