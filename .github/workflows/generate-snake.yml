@@ -12,6 +12,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+
       - name: Ensure output directory exists
         run: |
           mkdir -vp output
@@ -29,5 +30,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
+          git fetch -a
           git commit -m "Updated GitHub Actions Bot"
           git push
