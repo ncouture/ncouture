@@ -1,12 +1,4 @@
 <div style="display: flex; flex-direction: column; align-items: center; font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; color: #333;">
-  <div align="center"> 
-    <p>Visitor count</p>
-    <img src="https://profile-counter.glitch.me/ncouture/count.svg" alt="Visitor's Count" />
-  </div>
-
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ncouture&theme=tokyo-night&hide_border=true" alt="Activity graph">
-  </a>
   <div style="text-align: center;">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="output/github-snake-dark.svg">
