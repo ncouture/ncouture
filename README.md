@@ -5,7 +5,7 @@
   </div>
   <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img width="390" src="https://github-readme-stats.vercel.app/api?username=ncouture&theme=tokyo-night&count_private=true&show_icons=true&rank_icon=github&locale=en" alt="ncouture's GitHub Stats" />
-    <img width="280" src="https://github-readme-stats.vercel.app/api/top-langs?username=ncouture&theme=tokyo-night&layout=donut&hide=css,html,perl,c%2B%2B,c,objective-c,assembly,tex&langs_count=10&border_radius=10&show_icons=true&locale=en" alt="ncouture's Most Used Languages" />
+    <img width="280" src="https://github-readme-stats.vercel.app/api/top-langs?username=ncouture&theme=tokyo-night&layout=donut&hide=c%%2B%2B,lua,css,html,perl,go,c%2B%2B,c,max,oz,objective-c,assembly,tex&langs_count=5&border_radius=5&show_icons=true&locale=en" alt="ncouture's Most Used Languages" />
   </div>
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=ncouture&theme=tokyo-night&hide_border=true" alt="Activity graph">
@@ -23,16 +23,7 @@
       
 **Seeking**: A challenging role on a high-performing team where I can leverage my skills to drive innovation, improve security, and achieve operational excellence while learning from and sharing knowledge with a team of like-minded professionals.
 
-Very fond of open-source, if I would go back in time, the time spent working on my startup
-
-I'm not here to sell you magic; <strong>I'm here to roll up my sleeves</strong> and help you to build the cloud infrastructure your business deserves.
-
-Ready to transform your cloud? Let's talk.
-[Schedule a free video call with me in less than 5 clicks today](https://calendar.app.google/2S5gpNuuqa1p5MZf8)
-
-[Nicolas Couture](https://linkedin.com/in/nicolascouture) - **Your Cloud Transformation Partner**
-[work@stormvault.net](mailto:work@stormvault.net)
-[tel:1-877-747-3969](1-877-747-3969)
+Very fond of open-source, if I would go back in time, two years invested in developing [my startup](https://www.kisscalls.com) onto contributing to Free-Software, and open-source projects, softwares and operating systems such as [Debian](https://www.debian.org).
     </p>
   </div>
 
@@ -70,4 +61,16 @@ Ready to transform your cloud? Let's talk.
       <li>Consistently automated tasks and optimized workflows, reducing toil and improving efficiency.</li>
     </ul>
   </div>
+
+  <div class="section">
+    <h2>Interested to talk?</h2>
+    <h3>Let's find out how we can build great things together 🌳</h3>
+    I'm not here to sell you magic; <strong>I'm here to roll up my sleeves</strong> and help you to build the cloud infrastructure your business deserves.
+
+Ready to transform your cloud? Let's talk.
+[Schedule a free video call with me in less than 5 clicks today](https://calendar.app.google/2S5gpNuuqa1p5MZf8)
+
+[Nicolas Couture](https://linkedin.com/in/nicolascouture) - **Your Cloud Transformation Partner**
+[work@stormvault.net](mailto:work@stormvault.net)
+[tel:1-877-747-3969](1-877-747-3969)
 </div>
