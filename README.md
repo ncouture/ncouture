@@ -21,9 +21,9 @@
       systems, and software delivery solutions. My diverse background spans healthcare IT,
       enterprise security (IAM/PAM) banking, and SaaS entrepreneurship.security engineer who loves exploring new systems and security vulnerabilities.
       
-**Seeking**: A challenging role on a high-performing team where I can leverage my skills to drive innovation, improve security, and achieve operational excellence while learning from and sharing knowledge with a team of like-minded professionals.
+      **Seeking**: A challenging role on a high-performing team where I can leverage my skills to drive innovation, improve security, and achieve operational excellence while learning from and sharing knowledge with a team of like-minded professionals.
 
-Very fond of open-source, if I would go back in time, two years invested in developing [my startup](https://www.kisscalls.com) onto contributing to Free-Software, and open-source projects, softwares and operating systems such as [Debian](https://www.debian.org).
+      Very fond of open-source, if I would go back in time, I would spend two years invested in developing [my startup](https://www.kisscalls.com) on contributing to free-software, open-source projects, and operating systems like [Debian](https://www.debian.org). Lesson learned: don't be a single founder.
     </p>
   </div>
 
@@ -67,10 +67,14 @@ Very fond of open-source, if I would go back in time, two years invested in deve
     <h3>Let's find out how we can build great things together 🌳</h3>
     I'm not here to sell you magic; <strong>I'm here to roll up my sleeves</strong> and help you to build the cloud infrastructure your business deserves.
 
-Ready to transform your cloud? Let's talk.
-[Schedule a free video call with me in less than 5 clicks today](https://calendar.app.google/2S5gpNuuqa1p5MZf8)
+    Ready to transform your cloud? Let's talk.
+    [Schedule a free video call with me in less than 5 clicks today](https://calendar.app.google/2S5gpNuuqa1p5MZf8)
 
-[Nicolas Couture](https://linkedin.com/in/nicolascouture) - **Your Cloud Transformation Partner**
-[work@stormvault.net](mailto:work@stormvault.net)
-[tel:1-877-747-3969](1-877-747-3969)
+    [Nicolas Couture](https://linkedin.com/in/nicolascouture) - **Your Cloud Transformation Partner**
+    [work@stormvault.net](mailto:work@stormvault.net)
+    [tel:1-877-747-3969](1-877-747-3969)
+  </div>
+  <h3>AI Fun</h3>
+  <img alt="Apple, Linux, Windows" src="./imgs/OSes.gif"/>
 </div>
+
