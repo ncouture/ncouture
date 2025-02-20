@@ -5,7 +5,7 @@
   </div>
   <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     <img width="390" src="https://github-readme-stats.vercel.app/api?username=ncouture&theme=tokyo-night&count_private=true&show_icons=true&rank_icon=github&locale=en" alt="ncouture's GitHub Stats" />
-    <img width="280" src="https://github-readme-stats.vercel.app/api/top-langs?username=ncouture&theme=tokyo-night&layout=donut&hide=C,Css,C++,Php,Objective-C,Perl,ClassASP&langs_count=10&border_radius=10&show_icons=true&locale=en" alt="ncouture's Most Used Languages" />
+    <img width="280" src="https://github-readme-stats.vercel.app/api/top-langs?username=ncouture&theme=tokyo-night&layout=donut&hide=css,html,perl,c%2B%2B,c,objective-c,assembly,tex&langs_count=10&border_radius=10&show_icons=true&locale=en" alt="ncouture's Most Used Languages" />
   </div>
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=ncouture&theme=tokyo-night&hide_border=true" alt="Activity graph">
@@ -19,29 +19,21 @@
       operational excellence. Experienced in managing mission-critical systems,
       automating infrastructure as code, developing and automating solid software,
       systems, and software delivery solutions. My diverse background spans healthcare IT,
-      enterprise security (IAM/PAM) banking, and SaaS entrepreneurship.security engineer who loves exploring new systems and security vulnerabilities.</p>
-    <p>
-      <strong>Seeking:</strong> A challenging role on a high-performing team where I can leverage my skills to drive innovation, improve security, and achieve operational excellence while learning from and sharing knowledge with a team of like-minded professionals.
-    </p>
-  </div>
-
-  <div style="text-align: center;">
-    <p>
-      I'm not here to sell you magic; I'm here to roll up my sleeves and help you to build the cloud infrastructure your business deserves.
-
-      Ready to transform your cloud? Let's talk.
+      enterprise security (IAM/PAM) banking, and SaaS entrepreneurship.security engineer who loves exploring new systems and security vulnerabilities.
       
-      [Schedule a 30 to 60 minutes video call with me in less than 5 clicks today](https://calendar.app.google/VcEv4fiWqvNEsbc37)
+**Seeking**: A challenging role on a high-performing team where I can leverage my skills to drive innovation, improve security, and achieve operational excellence while learning from and sharing knowledge with a team of like-minded professionals.
 
-      Nicolas Couture - Your Cloud Transformation Partner
-      <a href="mailto:work@stormvault.net">work@stormvault.net</a>
-      <a href="tel:1-877-747-3969">1-877-747-3969</a>
+Very fond of open-source, if I would go back in time, the time spent working on my startup
+
+I'm not here to sell you magic; <strong>I'm here to roll up my sleeves</strong> and help you to build the cloud infrastructure your business deserves.
+
+Ready to transform your cloud? Let's talk.
+[Schedule a free video call with me in less than 5 clicks today](https://calendar.app.google/2S5gpNuuqa1p5MZf8)
+
+[Nicolas Couture](https://linkedin.com/in/nicolascouture) - **Your Cloud Transformation Partner**
+[work@stormvault.net](mailto:work@stormvault.net)
+[tel:1-877-747-3969](1-877-747-3969)
     </p>
-    <p>👀 </p>
-    <p>🌱 I've been working extensively with Python, Node.js, and Spring Boot, and I enjoy creating innovative tools and fun projects.</p>
-    <p>💞️ Feel free to submit PRs to improve my projects and make them even better.</p>
-    <p>📫 You can reach me via X or follow me on GitHub to stay updated with my latest work.</p>
-    <p>🌑 I often code late at night, so please don't disturb me during those hours, but I’d love to hear your suggestions in the morning.</p>
   </div>
 
   <hr style="border: none; height: 1px; background-color: #ccc; margin: 20px 0; width: 100%;">
