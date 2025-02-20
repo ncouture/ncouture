@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+      - name: Ensure output directory exists
+        run: |
+          mkdir -vp output
 
       - name: Generate GitHub Contribution Snake
         uses: Platane/snk@v3
@@ -20,10 +23,6 @@ jobs:
           outputs: |
             output/github-snake.svg
             output/github-snake-dark.svg?palette=github-dark
-
-      - name: Ensure output directory exists
-        run: |
-          mkdir -p output
 
       - name: Commit and push
         run: |
