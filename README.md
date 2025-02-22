@@ -1,13 +1,18 @@
 <h1 align="center">Open Source Collection for
   <a href="https://linkedin./in/nicolascouture">Nicolas Couture</a>
 </h1>
+
 <h4 align="center">President & CTO</h4>
+
 <h3 align="center">
-  <img align="center" width="128" height="128" src="https://github.com/ncouture/ncouture/blob/main/imgs/stormvault-networks-256x256.png" />
   <a href="https://www.stormvault.net">
     Stormvault Networks
   </a>
 </h3>
+
+<div align="center"/>
+  <a href="https://www.stormvault.net/"><img width="128" height="128" src="https://github.com/ncouture/ncouture/blob/main/imgs/stormvault-networks-256x256.png" /></a>
+</div>
 <h5 align="center">Montréal, Québec, Canada</h5>
 
 <div style="display: flex; flex-direction: column; align-items: center; font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; color: #333;">
