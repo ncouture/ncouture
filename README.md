@@ -91,11 +91,11 @@ systems, and software delivery solutions.
   </div>
   <div style="text-align: center;">
     <h2>Nicolas Couture</h2>
-    <p>
-      <a href="https://linkedin.com/in/nicolascouture">Nicolas Couture</a> - **Your Expert Cloud Partner** 🌳
-      <a href="mailto:work@stormvault.net>work@stormvault.net</a>
-      <a href="tel:+18777473969>+1-877-747-3969</a>
-    </p>
+    <ul>
+      <li><a href="https://linkedin.com/in/nicolascouture">Nicolas Couture</a> - <b>Your Expert Cloud Partner</b></li>
+      <li><a href="mailto:work@stormvault.net>work@stormvault.net</a></li>
+      >li.<a href="tel:+18777473969>+1-877-747-3969</a></li>
+    </ul>
   </div>
     
 <div style="text-align: center;">
