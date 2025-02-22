@@ -3,6 +3,7 @@
 </h1>
 <h4 align="center">President & CTO</h4>
 <h3 align="center">
+  <img align="center" width="128" height="128" src="https://github.com/ncouture/ncouture/blob/main/imgs/stormvault-networks-256x256.png" />
   <a href="https://www.stormvault.net">
     Stormvault Networks
   </a>
