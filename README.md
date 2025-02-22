@@ -56,23 +56,23 @@
   <div style="text-align: center;">
     <h2>Strong Technical Experience</h2>
 
-    - **Technical Expertise:** Linux expert, passsionate of UNIX-like operating systems, advanced cloud engineer familiar with the leading cloud service providers.
+- **Technical Expertise:** Linux expert, passsionate of UNIX-like operating systems, advanced cloud engineer familiar with the leading cloud service providers.
 
-    - **Operational Excellence:** Skilled in organization, infrastructure as code (IaC), CI/CD pipelines, system optimization, and troubleshooting.
+- **Operational Excellence:** Skilled in organization, infrastructure as code (IaC), CI/CD pipelines, system optimization, and troubleshooting.
 
-    - **Security Focused:** Experienced with IAM/PAM solutions, modeled requirements, designed, and implemented identity, access, and privileged access management solutions for Fortune 500 companies, familiar with threat modeling, incident response, network scanning, penetration testing, network traffic monitoring, running and developing custom honeypots.
+- **Security Focused:** Experienced with IAM/PAM solutions, modeled requirements, designed, and implemented identity, access, and privileged access management solutions for Fortune 500 companies, familiar with threat modeling, incident response, network scanning, penetration testing, network traffic monitoring, running and developing custom honeypots.
 
-    - **Infrastructure Management:** Managed complex infrastructures used in healthcare (LIS, PACS, RIS, RID) for clinics and hospitals.
+- **Infrastructure Management:** Managed complex infrastructures used in healthcare (LIS, PACS, RIS, RID) for clinics and hospitals.
 
-    - **Entrepreneurship:** Independently built and maintained a next-generation BaaS ("Business Assistant as a Service") from **2016**, using a unique technical stack using programming languages I learned to develop certain functionalities, therefore demonstrating resilience and reliability, effectively developed a complex cloud-based, solution with autoscaling workloads that functioned- **without intervention** until **December 31, 2024** that is to say, _it serviced customers on its own for over 7 years_.
+- **Entrepreneurship:** Independently built and maintained a next-generation BaaS ("Business Assistant as a Service") from **2016**, using a unique technical stack using programming languages I learned to develop certain functionalities, therefore demonstrating resilience and reliability, effectively developed a complex cloud-based, solution with autoscaling workloads that functioned- **without intervention** until **December 31, 2024** that is to say, _it serviced customers on its own for over 7 years_.
 
-    - **Problem Solver:** Strategic thinker adept at navigating complex systems and organizations, and at identifying opportunities.
+- **Problem Solver:** Strategic thinker adept at navigating complex systems and organizations, and at identifying opportunities.
 
-    - **Self-Starter:** Extremely self-driven experienced IT professional ready to take ownership of projects, taking initiative, working independently, and excels under pressure.
+- **Self-Starter:** Extremely self-driven experienced IT professional ready to take ownership of projects, taking initiative, working independently, and excels under pressure.
 
-    - **Cultural Catalyst**: I thrive on harnessing digital collaboration to turn promising ideas into full-fledged reality, igniting fresh possibilities in team settings, Rather than wait for perfection, I eagerly share my work at every stage, championing transparency and real-time feedback. My passion for documentation means I’m always capturing insights — often in raw form — ready for anyone to build upon, refine, and ultimately transform into the official record. This flood of notes isn’t just text on a screen; it’s an invitation for others to step in, co-create, and push projects into bolder directions, proving that generosity and shared vision can spark remarkable outcomes.
+- **Cultural Catalyst**: I thrive on harnessing digital collaboration to turn promising ideas into full-fledged reality, igniting fresh possibilities in team settings, Rather than wait for perfection, I eagerly share my work at every stage, championing transparency and real-time feedback. My passion for documentation means I’m always capturing insights — often in raw form — ready for anyone to build upon, refine, and ultimately transform into the official record. This flood of notes isn’t just text on a screen; it’s an invitation for others to step in, co-create, and push projects into bolder directions, proving that generosity and shared vision can spark remarkable outcomes.
     
-    - **Master of Automation:** Consistently automated software builds across multiple programming languages, optimized workflows, improved efficiency, and delivered long-lasting solutions using standardized practices rooted in UNIX philosophies.
+- **Master of Automation:** Consistently automated software builds across multiple programming languages, optimized workflows, improved efficiency, and delivered long-lasting solutions using standardized practices rooted in UNIX philosophies.
   </div>
   
   <div style="text-align: center;">
