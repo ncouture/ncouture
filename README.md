@@ -86,7 +86,7 @@
     </p>
     <!-- <p> -->
       <!--   Let's create something great together! 🌳 -->
-      <!-- </p -->>
+      <!-- </p -->
   </div>
 </div>
 <div style="text-align: center;">
