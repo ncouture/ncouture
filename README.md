@@ -13,7 +13,7 @@
 <div align="center"/>
   <a href="https://www.stormvault.net/"><img width="128" height="128" src="https://github.com/ncouture/ncouture/blob/main/imgs/stormvault-networks-256x256.png" /></a>
 </div>
-<h5 align="center">Montréal, Québec, Canada</h5>
+<h5 align="center">North American - Montréal, Québec, Canada</h5>
 
 <div style="display: flex; flex-direction: column; align-items: center; font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; color: #333;">
   <div style="text-align: center;">
@@ -42,74 +42,67 @@
 
   <div style="text-align: center;">
     <h2>Nicolas Couture</h2>
-    <p>Highly self-driven, result oriented IT professional with unparalleled organizational
+    <p>Highly self-driven, result oriented experienced IT professional with unparalleled organizational
 skills, and enterprise intelligence with a proven track record in Linux, security, and
 perational excellence. Experienced in managing mission-critical systems,
 automating infrastructure as code, developing and automating solid software,
-systems, and software delivery solutions. My diverse background spans healthcare IT,
-enterprise security (IAM/PAM) banking, and SaaS entrepreneurship.security engineer who loves exploring new systems and security vulnerabilities.
-
-**Seeking**: A challenging role on a high-performing team where I can leverage my skills to drive innovation, improve security, and achieve operational excellence while learning from and sharing knowledge with a team of like-minded professionals.
-
-Very fond of open-source, if I would go back in time, I would re-invest the two years invested in developing [my next-generation Business Assistant as a Service](https://www.kisscalls.com) (2016-2018) on contributing to free-software, open-source projects, and operating systems like [Debian](https://www.debian.org). 
-
-Lesson learned: don't be a single founder.
-</p>
-</div>
-
-  <div style="text-align: center;">
-    <h2>Key Strengths:</h2>
-    <ul>
-      <li>
-        <strong>Technical Expertise:</strong> Linux, cloud platforms, automation tools (e.g., Ansible, Terraform), scripting (Bash, Python, etc).
-      </li>
-      <li>
-        <strong>Operational Excellence:</strong> Organization / Getting Things Done, Infrastructure as Code (IaC), CI/CD pipelines,
-        system optimization, troubleshooting.
-      </li>
-      <li>
-        <strong>Security Focus:</strong> IAM/PAM solutions, threat modeling, incident response, scanning services, networks,
-        and monitoring network traffic, running honeypots.
-      </li>
-      <li>
-        <strong>Problem Solver:</strong> Strategic thinker, adept at navigating complex systems and organizations, identifying opportunities.
-      </li>
-      <li>
-        <strong>Self-Starter:</strong> Strong initiative, independent worker, excels under pressure.
-      </li>
-    </ul>
+systems, and software delivery solutions.
+    </p>
+    <p>
+    My diverse background spans healthcare IT, enterprise security (IAM/PAM) banking, and SaaS entrepreneurship, cloud infrastucture engineering, I loves exploring complex systems, troubleshoot issues, assess their functionalities and security.
+    </p>
   </div>
 
   <div style="text-align: center;">
-    <h2>Experience highlights:</h2>
-    <ul>
-      <li>Managed complex healthcare IT infrastructures (LIS, PACS, RIS, RID) for clinics and hospitals.</li>
-      <li>Designed and implemented identity and privileged access management solutions for Fortune 500 companies.</li>
-      <li>Single-handedly built and maintained a Business Assistant as a Service from 2016 to 2018 with a unique tech stack, demonstrating resilience, reliability, and entrepreneurship.
-      </li>
-      <li>Consistently automated tasks and optimized workflows, reducing toil and improving efficiency.</li>
-    </ul>
+    <h2>Strong Technical Experience</h2>
+
+- **Technical Expertise:** Linux expert, passsionate of UNIX-like operating systems, advanced cloud engineer familiar with the leading cloud service providers.
+
+- **Operational Excellence:** Skilled in organization, infrastructure as code (IaC), CI/CD pipelines, system optimization, and troubleshooting.
+
+- **Security Focused:** Experienced with IAM/PAM solutions, modeled requirements, designed, and implemented identity, access, and privileged access management solutions for Fortune 500 companies, familiar with threat modeling, incident response, network scanning, penetration testing, network traffic monitoring, running and developing custom honeypots.
+
+- **Infrastructure Management:** Managed complex infrastructures used in healthcare (LIS, PACS, RIS, RID) for clinics and hospitals.
+
+- **Entrepreneurship:** Independently built and maintained a next-generation BaaS ("Business Assistant as a Service") from **2016**, using a unique technical stack using programming languages I learned to develop certain functionalities, therefore demonstrating resilience and reliability, effectively developed a complex cloud-based, solution with autoscaling workloads that functioned- **without intervention** until **December 31, 2024** that is to say, _it serviced customers on its own for over 7 years_.
+
+- **Problem Solver:** Strategic thinker adept at navigating complex systems and organizations, and at identifying opportunities.
+
+- **Self-Starter:** Extremely self-driven experienced IT professional ready to take ownership of projects, taking initiative, working independently, and excels under pressure.
+
+- **Cultural Catalyst**: I thrive on harnessing digital collaboration to turn promising ideas into full-fledged reality, igniting fresh possibilities in team settings, Rather than wait for perfection, I eagerly share my work at every stage, championing transparency and real-time feedback. My passion for documentation means I’m always capturing insights — often in raw form — ready for anyone to build upon, refine, and ultimately transform into the official record. This flood of notes isn’t just text on a screen; it’s an invitation for others to step in, co-create, and push projects into bolder directions, proving that generosity and shared vision can spark remarkable outcomes.
+  
+- **Master of Automation:** Consistently automated software builds across multiple programming languages, optimized workflows, improved efficiency, and delivered long-lasting solutions using standardized practices rooted in UNIX philosophies.
   </div>
   
   <div style="text-align: center;">
-    <h2>Let's Connect!</h2>
-    <h3></h3>
     <p>
-<!-- Let's find out how we can build great things together 🌳 -->
-Let's create something great together! 🌳
-
-I'm not here to sell you magic; <strong>I'm here to roll up my sleeve</strong> and help you to build the cloud infrastructure your business deserves.
-
-Ready to transform your cloud? [Schedule a video call with today.](https://calendar.app.google/2S5gpNuuqa1p5MZf8)
-</p>
-
-[Nicolas Couture](https://linkedin.com/in/nicolascouture) - **Your Expert Cloud Partner**
-[work@stormvault.net](mailto:work@stormvault.net)])(mailto:work@stormvault.net)
-[+1-877-747-3969](tel:+1-877-747-3969)
+      <h2>Let's Connect!</h2>
+      I'm <i>not here to sell you magic</i>; I'm here to <i><strong>roll up my sleeves</strong></i> and help you to build the lasting, future-aware quality solutions your business deserves.
+    </p>
+    <h3>Fancy a short video call to chat and get to know each other?</h3>
+      <p>
+        Use my self-service calendar for booking an ideal time in my calendar and get a <a href="https://calendar.app.google/2S5gpNuuqa1p5MZf8">free appointment</a> right there today.
+      </p>
+    <p>
+      Let's create something great together! 🌳
+    </p>
 </div>
-
+  </div>
+  <div style="text-align: center;">
+    <h2>Nicolas Couture</h2>
+    <p>
+      <a href="https://linkedin.com/in/nicolascouture">Nicolas Couture</a> - **Your Expert Cloud Partner** 🌳
+      <a href="mailto:work@stormvault.net>work@stormvault.net</a>
+      <a href="tel:+18777473969>+1-877-747-3969</a>
+    </p>
+  </div>
+    
 <div style="text-align: center;">
   <h2>My AI Assistant Working Remotely</h2>
+  <p>
+    Yes, I do use AI in enterprises when it's not prohibited. Here's my AI Assistant:
+  </p>
   <img alt="Apple, Linux, Windows" src="./imgs/OSes.gif"/>
 </div>
   <div align="center">
