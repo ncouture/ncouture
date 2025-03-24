@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Display my Simple CV in Markdown format using colored terminal formatting tool in GitHub Action logs.
+      - name: Downlod dependencies
         run: |
           export SIMPLE_MD_CV="./NicolasCouture-simple.md"
           [[ -f "${SIMPLE_MD_CV}" ]] || {
@@ -24,6 +24,10 @@ jobs:
             exit 1
           }
           DEBIAN_FRONTEND=non-interactive sudo apt-get install -qqy md2term
-          echo "―――――――――――― Nicolas Couture Simple Markdown CV ――――――――――――"
-          md2term -c -k1 -f "${SIMPLE_MD_CV}"
-          echo "――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――"
+
+      - name: Nicolas Couture - Simple Markdown CV
+        run: |
+          exec /bin/bash -c 'export SIMPLE_MD_CV="./NicolasCouture-simple.md";
+          echo "―――――――――――― Nicolas Couture Simple Markdown CV ――――――――――――";
+          md2term -c -k1 -f "${SIMPLE_MD_CV}";
+          echo "――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――";'
