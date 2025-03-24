@@ -1,8 +1,12 @@
-# -*- coding: utf-8 -*-
-name: Terminal-based CV Formatter, a hacker's way to share their CV in a DevOps-friendly way.
+name: Terminal CV Formatter CI
 
 on:
-  push: [main]
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
