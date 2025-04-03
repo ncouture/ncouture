@@ -17,8 +17,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: List terms
+        run: |
+          echo  $(ls -1 /usr/share/terminfo/)
+          echo $(nfocmp vt100 vt220)
       - name: Checkout repository
         uses: actions/checkout@v4
+
 
       - name: Downlod dependencies
         run: |
@@ -31,5 +36,6 @@ jobs:
       - name: Nicolas Couture - Simple Markdown CV
         run: |
           echo "―――――――――――― Nicolas Couture Short Markdown CV ―――――――――――――";
+
           md2term -c -k1 -f "${SHORT_CV}";
           echo "――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――";'
