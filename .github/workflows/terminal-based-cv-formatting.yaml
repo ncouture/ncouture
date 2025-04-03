@@ -18,7 +18,7 @@ jobs:
 
       - name: Downlod dependencies
         run: |
-          export SIMPLE_MD_CV="./NicolasCouture-simple.md"
+          export SIMPLE_MD_CV="./cv/2025/NicolasCouture-short.md"
           [[ -f "${SIMPLE_MD_CV}" ]] || {
             echo "error: file not found: ${SIMPLE_MD_CV}"
             exit 1
