@@ -19,8 +19,8 @@ jobs:
     steps:
       - name: List terms
         run: |
-          echo  $(ls -1 /usr/share/terminfo/)
-          echo $(nfocmp vt100 vt220)
+          echo  $(ls -1 /usr/share/terminfo/x/)
+          echo $(infocmp vt100 vt220)
       - name: Checkout repository
         uses: actions/checkout@v4
 
