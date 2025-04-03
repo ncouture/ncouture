@@ -8,6 +8,10 @@ on:
     branches:
       - main
 
+env:
+  SHORT_CV: cv/2025/NicolasCouture-short.md
+
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,16 +22,14 @@ jobs:
 
       - name: Downlod dependencies
         run: |
-          export SIMPLE_MD_CV="./cv/2025/NicolasCouture-short.md"
-          [[ -f "${SIMPLE_MD_CV}" ]] || {
-            echo "error: file not found: ${SIMPLE_MD_CV}"
+          [[ -f "${SHORT_CV}" ]] || {
+            echo "error: file not found: ${SHORT_CV}"
             exit 1
           }
           DEBIAN_FRONTEND=non-interactive sudo apt-get install -qqy md2term
 
       - name: Nicolas Couture - Simple Markdown CV
         run: |
-          exec /bin/bash -c 'export SIMPLE_MD_CV="./NicolasCouture-simple.md";
-          echo "―――――――――――― Nicolas Couture Simple Markdown CV ――――――――――――";
-          md2term -c -k1 -f "${SIMPLE_MD_CV}";
+          echo "―――――――――――― Nicolas Couture Short Markdown CV ―――――――――――――";
+          md2term -c -k1 -f "${SHORT_CV}";
           echo "――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――";'
