@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicolas Couture - Stormvault Networks CV</title>
+  <style>
+    /* Base styles */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.5;
+    }
+    
+    /* Main container */
+    .container {
+      max-width: 64rem; /* 4xl in Tailwind */
+      margin: 2rem auto;
+      background-color: white;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+    
+    /* Header */
+    .header {
+      background-color: #1a202c; /* gray-900 */
+      color: white;
+      padding: 2rem;
+    }
+    
+    .header-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    
+    .header h1 {
+      font-size: 1.875rem;
+      font-weight: 700;
+      margin: 0;
+    }
+    
+    .header h2 {
+      font-size: 1.25rem;
+      margin: 0.5rem 0 0;
+      color: #cbd5e0; /* gray-300 */
+    }
+    
+    .header p {
+      margin: 0.25rem 0 0;
+      color: #a0aec0; /* gray-400 */
+    }
+    
+    .contact-info {
+      margin-top: 1rem;
+      text-align: right;
+      color: #cbd5e0; /* gray-300 */
+    }
+    
+    /* Section styles */
+    .section {
+      padding: 2rem;
+      border-bottom: 1px solid #e2e8f0; /* gray-200 */
+    }
+    
+    .section-gray {
+      background-color: #f7fafc; /* gray-50 */
+    }
+    
+    .section-gradient {
+      background-image: linear-gradient(to right, #f7fafc, #ffffff);
+    }
+    
+    .section h3 {
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: #4a5568; /* gray-700 */
+      margin-bottom: 1rem;
+    }
+    
+    .section h4 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #2d3748; /* gray-800 */
+      margin-bottom: 0.5rem;
+    }
+    
+    .section p {
+      color: #4a5568; /* gray-700 */
+      margin: 0 0 1rem;
+    }
+    
+    .section p.small {
+      font-size: 0.875rem;
+      color: #718096; /* gray-600 */
+    }
+    
+    .italic {
+      font-style: italic;
+    }
+    
+    /* Grid layout */
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    
+    /* Card styles */
+    .card {
+      background-color: white;
+      padding: 1rem;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+      border-radius: 0.25rem;
+    }
+    
+    /* List styles */
+    ul.disc {
+      list-style-type: disc;
+      padding-left: 1.25rem;
+      color: #718096; /* gray-600 */
+      font-size: 0.875rem;
+      margin: 0.5rem 0 1rem;
+    }
+    
+    /* Job section */
+    .job {
+      margin-bottom: 2rem;
+    }
+    
+    .job-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    
+    .job-title {
+      font-weight: 600;
+      color: #2d3748; /* gray-800 */
+    }
+    
+    .job-company {
+      font-size: 0.875rem;
+      color: #718096; /* gray-500 */
+    }
+    
+    .job-date {
+      font-size: 0.875rem;
+      color: #718096; /* gray-500 */
+    }
+    
+    /* Dark section */
+    .dark-section {
+      background-color: #2d3748; /* gray-800 */
+      color: white;
+      padding: 2rem;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    
+    .dark-section p {
+      font-size: 1.125rem;
+      margin: 0;
+    }
+    
+    /* Footer */
+    .footer {
+      background-color: #1a202c; /* gray-900 */
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    
+    .footer p {
+      color: #cbd5e0; /* gray-300 */
+      margin: 0;
+    }
+    
+    .footer p.small {
+      color: #a0aec0; /* gray-400 */
+      font-size: 0.75rem;
+      margin-top: 0.5rem;
+    }
+    
+    /* Media queries for responsiveness */
+    @media (min-width: 768px) {
+      .header-content {
+        flex-direction: row;
+        align-items: center;
+      }
+      
+      .contact-info {
+        margin-top: 0;
+      }
+      
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      .grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      
+      .job-header {
+        flex-direction: row;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header Section -->
+    <div class="header">
+      <div class="header-content">
+        <div>
+          <h1>NICOLAS COUTURE</h1>
+          <h2>THE INFRASTRUCTURE WHISPERER</h2>
+          <p>Founder & CTO, Stormvault Networks</p>
+        </div>
+        <div class="contact-info">
+          <p>work@stormvault.net</p>
+          <p>+1-514-688-7124</p>
+          <p>linkedin.com/in/nicolascouture</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Remarkable Positioning Statement -->
+    <div class="section section-gray">
+      <p class="italic">
+        "I don't fix servers, infrastructure, or outages. I fix the gap between what your technology does and what your business needs."
+      </p>
+    </div>
+
+    <!-- Professional Summary -->
+    <div class="section">
+      <p>
+        For two decades, I've been the quiet force behind systems that don't just perform—they transform. The evidence? A business assistant platform I built in 2016 that ran without human intervention for six full years after I moved on. It didn't just work—it created freedom for the people who depended on it.
+      </p>
+      <p>
+        When you bring me in, you're not hiring technical expertise. You're investing in someone who builds systems that make your business more human, not less.
+      </p>
+    </div>
+
+    <!-- Philosophy Section -->
+    <div class="section section-gradient">
+      <h3>MY APPROACH: TURNING CHAOS INTO CLARITY</h3>
+      <div class="grid">
+        <div>
+          <h4>The Infrastructure Philosophy</h4>
+          <p class="small">
+            Stormvault Networks exists because organizations deserve infrastructure that turns chaos into clarity. The storm is what happens outside your vault. Inside, there's only possibilities. My journey began with a hacker's mindset: understanding vulnerabilities is the first step to creating security.
+          </p>
+        </div>
+        <div>
+          <h4>Beyond Technical Wizardry</h4>
+          <p class="small">
+            This isn't about technical wizardry. It's about seeing what others miss: infrastructure exists to create possibility, not just prevent problems. The most dangerous security posture isn't ignorance—it's false confidence.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Strategic Impact -->
+    <div class="section">
+      <h3>STRATEGIC IMPACT</h3>
+      
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <div class="job-title">Ubisoft Canada</div>
+            <div class="job-company">Principal Senior Hybrid-Cloud Infrastructure Engineer</div>
+          </div>
+          <span class="job-date">2023-2024</span>
+        </div>
+        <ul class="disc">
+          <li>Led monolith-to-microservice transformation that revolutionized developer workflow</li>
+          <li>Eliminated costly cloud environments through containerized local development architecture</li>
+          <li>Achieved 100% increase in developer DevOps proficiency through strategic mentorship</li>
+        </ul>
+      </div>
+      
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <div class="job-title">Invue Security Products</div>
+            <div class="job-company">Senior JavaScript Software Developer (DevOps & SRE)</div>
+          </div>
+          <span class="job-date">2021-2023</span>
+        </div>
+        <ul class="disc">
+          <li>Led monolith-to-microservice transformation that revolutionized developer workflow</li>
+          <li>Eliminated costly cloud environments through containerized local development architecture</li>
+          <li>Achieved 100% increase in developer DevOps proficiency through strategic mentorship</li>
+        </ul>
+      </div>
+      
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <div class="job-title">Desjardins</div>
+            <div class="job-company">Senior Software Developer</div>
+          </div>
+          <span class="job-date">2020-2021</span>
+        </div>
+        <ul class="disc">
+          <li>Engineered enterprise-wide identity governance framework affecting thousands of users</li>
+          <li>Eliminated security vulnerabilities through strategic account consolidation</li>
+          <li>Pioneered Big Data solutions for marketing intelligence</li>
+        </ul>
+      </div>
+      
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <div class="job-title">Decathlon</div>
+            <div class="job-company">E-commerce Infrastructure Director and Architect</div>
+          </div>
+          <span class="job-date">2019-2020</span>
+        </div>
+        <ul class="disc">
+          <li>Designed cross-cloud migration strategy preserving business continuity</li>
+          <li>Created observability infrastructure revealing previously invisible performance insights</li>
+          <li>Accelerated customer experience with 30% improvement in e-commerce content delivery</li>
+        </ul>
+      </div>
+      
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <div class="job-title">Square-Enix</div>
+            <div class="job-company">Senior DevOps Engineer</div>
+          </div>
+          <span class="job-date">2018-2019</span>
+        </div>
+        <ul class="disc">
+          <li>Deployed multi-regional Kubernetes architecture with advanced service mesh capabilities</li>
+          <li>Implemented sophisticated canary deployment system mitigating release risk</li>
+        </ul>
+      </div>
+      
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <div class="job-title">Kisscalls</div>
+            <div class="job-company">Founding CEO (single-founder)</div>
+          </div>
+          <span class="job-date">2016-2018</span>
+        </div>
+        <ul class="disc">
+          <li>Bridged digital-physical gap writing a Next-Generation Business Assistant as a Service</li>
+          <li>Created a platform that ran without human intervention for six years after I moved on</li>
+        </ul>
+      </div>
+      
+      <p class="small italic">Previous roles (2001-2015) include positions at Morgan Stanley, Hitachi ID Systems, Technidata Medical Software, Intelerad Medical Systems, and others.</p>
+    </div>
+
+    <!-- Core Principles -->
+    <div class="section section-gray">
+      <h3>CORE PRINCIPLES</h3>
+      <div class="grid grid-3">
+        <div class="card">
+          <h4>Collaborative & Inclusive</h4>
+          <p class="small">The myth of the lone technical genius has cost organizations billions in failed transformations. My approach marries deep technical expertise with the emotional intelligence to bring stakeholders along the journey. The most elegant infrastructure is invisible to those who benefit from it.</p>
+        </div>
+        <div class="card">
+          <h4>Continuously Learning</h4>
+          <p class="small">In our industry, those who stop learning start dying. I've deliberately reinvented my career at each technological inflection point. Your organization isn't hiring for what I know today. You're investing in my framework for discovering what none of us yet understand.</p>
+        </div>
+        <div class="card">
+          <h4>Adaptive & Agile</h4>
+          <p class="small">The only infrastructure that matters is the one that adapts faster than the market. My greatest contribution isn't the systems I build—it's how I build systems that evolve. The question isn't whether your technology works today—it's whether it's designed to thrive tomorrow.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Technical Arsenal -->
+    <div class="section">
+      <h3>TECHNICAL ARSENAL</h3>
+      <div class="grid grid-3">
+        <div>
+          <h4>Cloud & Infrastructure</h4>
+          <ul class="disc">
+            <li>Multi-cloud strategy (Azure, GCP, AWS, OCI, Alibaba)</li>
+            <li>Infrastructure as Code (Terraform, ARM, Bicep, HCL)</li>
+            <li>Advanced containerization architectures</li>
+            <li>Deep Linux expertise</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Security & Identity</h4>
+          <ul class="disc">
+            <li>Enterprise IAM/PAM frameworks</li>
+            <li>Zero-trust implementation</li>
+            <li>RBAC implementation</li>
+            <li>Federation services</li>
+            <li>Secret management systems</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Engineering Excellence</h4>
+          <ul class="disc">
+            <li>CI/CD pipeline design</li>
+            <li>Microservice architecture</li>
+            <li>System resilience engineering</li>
+            <li>DevOps transformation</li>
+            <li>Kubernetes orchestration</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certifications & Approach -->
+    <div class="section">
+      <div class="grid">
+        <div>
+          <h3>CERTIFICATIONS</h3>
+          <ul class="disc">
+            <li>Microsoft Security Professional (2025)</li>
+            <li>GitHub & Docker Professional Certification (2024)</li>
+            <li>Google Cloud Architecture & SRE Specializations</li>
+            <li>Y Combinator Startup School Alumni</li>
+            <li>Various Linux and Cloud platform certifications</li>
+          </ul>
+        </div>
+        <div>
+          <h3>INTERVIEW APPROACH</h3>
+          <p class="small">
+            I believe great technical interviews mirror real work environments. I deliver my best when solving substantive problems that demonstrate how I actually work—not performing syntax recall or whiteboard exercises.
+          </p>
+          <p class="small">
+            My most successful partnerships begin with interview processes that prioritize depth over performance. I thrive when discussing system design, architectural trade-offs, and the business implications of technical decisions.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Strategic Value Statement -->
+    <div class="dark-section">
+      <p>
+        I don't merely maintain systems—I transform them. My approach combines technical depth with business context to deliver solutions that create strategic advantage. I excel at identifying friction points in development workflows and infrastructure limitations that constrain business potential.
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>
+        "Technology should dissolve barriers, not create them. I ensure yours does."
+      </p>
+      <p class="small">
+        In a world where technology constantly reinvents itself, the greatest value comes not from what I've done, but from how I approach what hasn't yet been attempted.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
