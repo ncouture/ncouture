@@ -10,17 +10,15 @@ on:
 
 env:
   SHORT_CV: cv/2025/NicolasCouture-short.md
-
+  TERM: xterm+256color
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
+
     steps:
-      - name: List terms
-        run: |
-          echo  $(ls -1 /usr/share/terminfo/x/)
-          echo $(infocmp vt100 vt220)
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
