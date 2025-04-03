@@ -1,5 +1,10 @@
 name: Terminal CV Formatter CI
 
+defaults:
+  run:
+    shell: bash
+    working-directory: ./cv/
+
 on:
   push:
     branches:
@@ -9,7 +14,7 @@ on:
       - main
 
 env:
-  SHORT_CV: cv/2025/NicolasCouture-short.md
+  SHORT_CV: 2025/NicolasCouture-short.md
   TERM: xterm+256color
 
 jobs:
@@ -32,3 +37,6 @@ jobs:
 
       - name: Nicolas Couture - Simple Markdown CV
         run: md2term -c -k1 -f $SHORT_CV
+
+      - name: Nicolas Couture - formatter.py
+        run: bin/formatter.py $SHORT_CV
