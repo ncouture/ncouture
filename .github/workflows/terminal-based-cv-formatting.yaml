@@ -22,7 +22,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-
       - name: Downlod dependencies
         run: |
           [[ -f "${SHORT_CV}" ]] || {
@@ -32,8 +31,4 @@ jobs:
           DEBIAN_FRONTEND=non-interactive sudo apt-get install -qqy md2term
 
       - name: Nicolas Couture - Simple Markdown CV
-        run: |
-          echo "―――――――――――― Nicolas Couture Short Markdown CV ―――――――――――――";
-
-          md2term -c -k1 -f "${SHORT_CV}";
-          echo "――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――";'
+        run: md2term -c -k1 -f $SHORT_CV

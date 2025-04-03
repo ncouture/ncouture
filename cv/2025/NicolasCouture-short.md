@@ -1,4 +1,4 @@
-# Nicolas Couture - Architect of Digital Transformation
+# Nicolas Couture, Architect of Digital Transformation
 
 > Cloud strategist who transforms technical complexity into business advantage. 20+ years navigating the intersection of infrastructure, security, and innovation. I don't just implement systems—I reimagine them.
 
