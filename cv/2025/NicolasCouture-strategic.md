@@ -43,7 +43,6 @@
 - Ability to manage-up
 - Increase team expertise by developing and presenting workshops
 - Serious about performance and strong team player
-- Open-Source UNIX-Like OS kernel development services
 - Building, optimizing, and troubleshooting:
   - Software builds, containers, CI/CD pipelines
   - Deployment automation
