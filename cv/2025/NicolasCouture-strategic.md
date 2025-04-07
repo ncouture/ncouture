@@ -1,0 +1,198 @@
+# Nicolas Couture
+
+> Seasoned IT professional with over 20 years of experience in on-premises and hybrid cloud environments, contributed to developing and streamlining DevOps practices in the enterprise. Specialized in UNIX-like OSes, system administration, infrastructure automation, configuration management, and security. Proven ability to design, implement, and automate cloud solutions for improved efficiency, security, and scalability. Eager to leverage expertise in Azure, Google Cloud, OCI, and AWS to contribute to innovative cloud initiatives.
+
+## Skills & Expertise
+
+### Cloud Service Providers
+- Google Cloud Platform - ⚝⚝⚝⚝⚝
+- Azure                 - ⚝⚝⚝
+- AWS                   - ⚝⚝
+
+### DevOps & SRE
+- CI/CD pipelines
+- Infrastructure automation
+- BASH, Python, HashiCorp Configuration Language (HCL)
+- Docker, Podman, Containers
+- Terraform, Infrastructure as Code (IaC)
+- ARM, Bicep, Vault, Packer
+- PowerShell, YAML, ELisp
+
+### Security
+- Identity and Access Management (IAM)
+- Privileged Access Management (PAM)
+- Secret Management
+
+### Linux Administration
+- Standard Internet Services
+- Database Administration
+- Debian, RHEL, Ubuntu
+
+### Containerization
+- Docker, Compose, Swarm
+- Kubernetes
+
+### Monitoring & Troubleshooting
+- Proactive approach to system health and performance
+
+## Professional Experience
+
+### Founding CTO - Stormvault Networks
+- Offering expert services in building resilient engineering teams
+- Implementing robust platforms and developing reliable products
+- Ability to manage-up
+- Increase team expertise by developing and presenting workshops
+- Serious about performance and strong team player
+- Open-Source UNIX-Like OS kernel development services
+- Building, optimizing, and troubleshooting:
+  - Software builds, containers, CI/CD pipelines
+  - Deployment automation
+  - Cloud native Kubernetes services
+  - DevOps and SRE practices
+  - IAM, PAM, ABAC, Azure AD, LDAP, WIF, Secret Management, Kerberos, SAML, OAuth, OpenID Connect, RBAC, MFA, Active Directory, RADIUS, SCIM, PKI, Certificate Management, Single Sign-On (SSO), Identity Federation, and Privileged Access Management
+
+### Senior Hybrid-Cloud Infrastructure Engineer, Ubisoft Canada | 2023-2024
+- Designed and implemented robust hybrid cloud solutions for Ubisoft's game development environment, leveraging Azure expertise
+- Automated provisioning, configuration management, and application deployments using Azure DevOps pipelines across a hybrid multi-cloud Dotnet microservices infrastructure
+- Managed infrastructure as code (IaC) with Bicep and Terraform, ensuring consistent, scalable deployments across on-premises, Azure, Google Cloud, and AWS environments
+- Collaborated with senior development managers to integrate Azure, GCP, AWS, and Alibaba Cloud services, enhancing security and performance of game deployments
+- Configured MultiClusterIngress for GKE Services with Anthos Service Mesh, deploying both external and internal Google Load Balancers (GCLB/ILB) for efficient traffic management
+- Deployed Locust for comprehensive load testing across regions, simulating millions of user sessions to ensure game readiness, facilitated by ASM ingress gateways
+- Improved load-testing deployment processes, cutting deployment time by >50% and reducing errors through optimized CI/CD pipelines, utilizing CI/CD container automation in Gitlab, Hashicorp Vault, Artifact registries, etc.
+
+**Technologies**: Linux, DevOps, Google Cloud, Google Kubernetes Engine, Python, Locust, E2E/End-to-End Load Tests, Advanced GitLab CI/CD pipelines, HashiCorp Vault, Writing Dockerfiles, Automating builds, Advanced CI/CD pipelines, GitLab, Secret Management, Alibaba Cloud, IAM, PAM, Azure DevOps, ARM Templates, Bicep, Anthos Service Mesh, Terraform, AWS, Hybrid Cloud Solutions, MCI, Google Load Balancers (GCLB/ILB)
+
+### Senior Developer Productivity Engineer, Invue Security Products | 2021-2023 (remote)
+- Joined Invue at a strategic time when the Software Engineering department was focused on converting a Node.js monolith into microservices
+- Migrated the monolith's legacy infrastructure from AWS to Google Cloud, transitioning from inefficient, costly Compute Engine instances to Kubernetes
+- Facilitated the migration of the microservice architecture running on Kubernetes to Microsoft Azure Cloud
+- Architected a streamlined microservice infrastructure by automating the build and containerization of existing microservices
+- Developed an MVP of the cluster's infrastructure using Docker Compose, which allowed developers to run the entire setup locally in a consistent and reproducible manner, thereby eliminating the need for shared, costly cloud-based development environments
+- Enhanced developer proficiency in DevOps practices as measured by a 100% increase in contributions to CI/CD pipelines skill use by developers after conducting workshops and training sessions
+- Implemented CI/CD pipeline processes to improve code quality, security, and automated tests
+- Modernized their DevOps practices by adopting sound CI/CD pipelines effectively replacing Ansible with Terraform and brought Terraform Cloud into the enterprise, as well as Hashicorp Vault, leading to significant reductions in manual interventions and enhanced consistency in provisioning
+- Elevated security as measured by improved secret management protocols and cloud IAM processes, enhancing the overall security posture
+
+**Technologies**: JavaScript, TypeScript, Advanced Build Processes, Security, Secret Management, Identity and Access Management, Docker, Github, Github Actions, Kubernetes, Google Kubernetes Service, Azure Kubernetes Service, Amazon Kubernetes Services, Spinnaker, Automation, BASH, Terraform, Terraform Cloud, Hashicorp Vault, Linux, DevOps
+
+### Google Cloud Integrator, Big Data & Artificial Intelligence, Innovation & AI Team, Desjardins | 2020-2021 (remote)
+- Collaborated within a multidisciplinary team to enhance security for Desjardins' Big Data solutions in Google Cloud Platform, Google Workspace, and Google Marketing solutions (Analytics, AdWords, Search Console, Maps)
+- Led a large-scale account and access management migration project, synchronizing Desjardins' user identities for Single Sign-On (SSO) and transitioning access from user-owned to corporate accounts, ensuring uninterrupted service for thousands of users
+- Developed a governance strategy for unmanaged accounts, eliminating consumer-type accounts with access to corporate resources and ensuring all corporate identities were securely managed
+- Automated data mining tasks for user data migration using advanced LDAP queries with Active Directory, enhancing efficiency and accuracy
+- Identified and disabled consumer-type accounts, securing Google Cloud resources owned by the firm
+- Created proof of concepts to evaluate Big Data solutions for marketing and analytics teams using Google Cloud technologies
+
+**Technologies**: Google Cloud Identity, Active Directory, LDAP, SAML, Terraform, Vault, Linux, GitLab, BigQuery, BASH, Python, Cloud Operations, Apache Beam, Apache Airflow
+
+### E-commerce Information System Environment Manager, Decathlon | 2019-2020
+- Ensured e-commerce infrastructure availability around the clock
+- Maintained infrastructure-as-code and performed manual system administration on legacy infrastructures
+- Designed a multi-cloud solution used to facilitate the migration of the platform to a different cloud vendor
+- Centralized application logging and implemented log-based metrics used to create dashboards and visualize data
+- Implemented system monitoring and service health checks
+- Increased e-commerce average page load speed by >30%
+
+**Technologies**: Terraform, Linux, Gitlab, Docker, Docker Compose, Kubernetes, AWS, GCP, Apache, NGINX, Python, PHP, BASH, Django, Redis, Github Actions, Slack API
+
+### Senior DevOps Engineer, Square-Enix | 2018-2019
+- Deployed and configured multi-regional Kubernetes clusters with Istio service mesh using Google Kubernetes Engine, and Helm
+- Implemented multi-regional, Spinnaker k8s clusters for continuous delivery and canary deployments with automated pipelines triggered by container image tags
+
+**Technologies**: Google Kubernetes Engine (GKE), Istio Service Mesh, Helm, Spinnaker, NGINX Load Balancer, Istio RouteRules, Private Container Registry, Kubernetes, Continuous Delivery, Canary Deployments, Blue/Green Deployments, Automated Pipelines
+
+### Founder, Kisscalls | 2016-2018
+- Founded a next-generation business assistant as a service business—https://www.kisscalls.com—bridging the gap between online to offline conversions
+
+**Technologies**: Python, Django, REST framework, OAuth2, Dialogflow, Google Assistant, App Engine, Polymer, Material Design, WebRTC, Firebase Hosting, Firebase Database, Cloud Functions, Express.js, Twilio, GCP, Github, Google Data Studio, Sendgrid
+
+### IT and Medical Imaging Consultant, Dossier santé Québec M.S.S.S. | 2015
+- Acceptance testing of provincial-wide, multi-vendor, RIS, PACS, DIR solution
+- Installation and migration of large scale on-prem Oracle databases servers with replication across 3 central locations in the province of Quebec via private WAN
+- Automated asynchronous load and conformance tests
+- Developed a domain-specific language to automate end-to-end tests by writing YAML instead of a programming language
+
+**Technologies**: Linux, DICOM, HL7, RIS, PACS, XDS, Python, BASH, Agfa IMPAX, dcm4chee
+
+### Enterprise Infrastructure Associate, Morgan Stanley | 2014-2016
+- Supported 5 enterprise web portals (50k daily users)
+
+**Technologies**: Linux, Tomcat, Java, PostgreSQL, Adobe Experience Manager, Oracle Database Server on-prem administration, Python, BASH, Identity and Access Management
+
+### Solutions Architect, Hitachi ID Systems | 2012-2014
+- Tailored identity and access management solution for fortune 500 companies
+
+**Technologies**: Windows Server, Active Directory, Database Management, Oracle Database <12, Lotus Notes, Solaris, Linux, AS/400, LDAP, Python, Twisted, Identity and Access Management, HTML, LaTeX, m4, BASH
+
+### Integration Specialist, Technidata Medical Software | 2009-2012
+- Deployed laboratory information systems
+
+**Technologies**: Windows 2008 R2, RedHat Enterprise Linux, Solaris, AIX
+
+### Deployment Specialist and PACS Analyst, Intelerad | 2005-2008
+- Deployed and upgraded large scale digital radiology software (100+ servers, 300+ RPMs)
+- Investigated and documented system issues working closely with developers
+
+**Technologies**: Linux, RHEL, BASH, Perl, Python, DICOM, HL7
+
+### Linux System Administrator Internship, Commission Scolaire de Montreal + other employments | 2002-2004
+- Installation, configuration, and administration of Linux servers, Linux Terminal Server (thinclients), shell scripting automation
+
+**Technologies**: Debian, RedHat, Cyrus, LTSP, Sendmail, Popa3d, Courier-IMAP, Bind (DNS), Yellow Pages (NIS), Firewall (IPTables), Nagios, Postfix, PostgreSQL
+
+## Contact Information
+- Phone: +1-514-688-7124
+- Email: work@stormvault.net
+- [LinkedIn](https://www.linkedin.com/in/nicolascouture)
+- [Github](https://github.com/ncouture)
+- Calendar: [Book me online](https://calendar.app.google/WjxXaKGdbnXUkaf8A)
+
+## Top Skills
+- Linux
+- BASH
+- Python
+- Security
+- Automation
+- Collaboration
+- Organization
+- DevOps Practices
+- SRE Practices
+- Containerization
+- Cloud Native Technologies
+
+## Regulatory Frameworks Experience
+- GDPR
+- ISO 27001
+- HIPAA
+- PCI DSS
+
+## Certifications
+- Linux Professional (Canonical)
+- Microsoft Security Professional ([Microsoft](https://www.linkedin.com/learning/certificates/ee3a4639802b3dc095cb238c027ee834d835bdc7805a53a60d018d2e00e9a7ba)) - January 2025
+- Microsoft Security: Concepts, Solutions, and AI-Powered Protection ([Microsoft](https://www.linkedin.com/learning/certificates/dc3038c0ad5e24a3655ef339a84ae0dff9675d9dfea26fc86aca1b5616c61041)) - January 2025
+- GitHub Professional Certificate ([GitHub](https://www.linkedin.com/learning/certificates/3cec3708ecd52cd57a95ee0992a3280ae39829a47fd3ba671d2cc4a5533b26fe)) - December 2024
+- Docker Professional Certificate ([Docker](https://www.linkedin.com/learning/certificates/e47cf4f9073b8edd949ece7fa926291895bdaffb07e9aabef0f1b195f4c5f938)) - October 2024
+- Developing a Google SRE Culture ([Coursera](https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~KZ9U9HKHX7LJ/CERTIFICATE_LANDING_PAGE~KZ9U9HKHX7LJ.jpeg))
+- Reliable Google Cloud Infrastructure: Design and Process ([Coursera](https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6GNGQA7DK4QN/CERTIFICATE_LANDING_PAGE~6GNGQA7DK4QN.jpeg))
+- Google Cloud Fundamentals: Core Infrastructure ([Coursera](https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6GNGQA7DK4QN/CERTIFICATE_LANDING_PAGE~6GNGQA7DK4QN.jpeg))
+- Digital Marketing Fundamentals (Google) - Credential ID: [MMZ UPE 2V8](https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code)
+- Startup School (Y Combinator) - Credential ID: [10738466](https://www.credential.net/hviasngk#acc.zbGLx98q)
+- Mobile Site Certification (Google) - Issued May 2017
+- Linux Security (Savoir-faire Linux) - Issued 2001
+- Linux Administration (Savoir-faire Linux) - Issued 2001
+- Linux Basics (Savoir-faire Linux) - Issued 2001
+
+## Google Cloud Badges
+- [Google Developer Profile](https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8)
+- Preparing for your Professional Cloud Architect Journey ([Google](https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/9576010)) - Jun. 2024
+- Generative AI with the Vertex AI Gemini API ([Google](https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/9566471)) - Jun. 2024
+- Developing a Google SRE Culture ([Google](https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/8105696)) - Feb. 2024
+- Managing Cloud Infrastructure with Terraform ([Google](https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/6950095)) - Jan. 2024
+- Google Cloud Fundamentals: Core Infrastructure ([Google](https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/8105696)) - Feb. 2024
+- Kubernetes in Google Cloud ([Google](https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/205644)) - Feb. 2020
+- Baseline: Data, ML, AI ([Google](https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/205617)) - Feb. 2020
+
+## Volunteer Experience
+- PyCon US (Python Software Foundation) - 2015 & 2016
+- Linux-Québec / Facil - 2003-2004
+- M.LU.G. - 1999-2004
