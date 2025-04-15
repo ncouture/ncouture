@@ -1,5 +1,5 @@
 <h1 align="center">Open Source Collection for
-  <a href="https://linkedin./in/nicolascouture">Nicolas Couture</a>
+  <a href="https://linkedin/in/nicolascouture">Nicolas Couture</a>
 </h1>
 
 <h4 align="center">President & CTO</h4>
