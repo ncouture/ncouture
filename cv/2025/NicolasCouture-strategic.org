@@ -2,8 +2,6 @@
 #+AUTHOR: Nicolas Couture
 #+EMAIL: work@stormvault.net
 
-* Nicolas Couture
-
 #+begin_quote
 Seasoned IT professional with over 20 years of experience in on-premises and hybrid cloud environments, contributed to developing and streamlining DevOps practices in the enterprise. Specialized in UNIX-like OSes, system administration, infrastructure automation, configuration management, and security. Proven ability to design, implement, and automate cloud solutions for improved efficiency, security, and scalability. Eager to leverage expertise in Azure, Google Cloud, OCI, and AWS to contribute to innovative cloud initiatives.
 #+end_quote
