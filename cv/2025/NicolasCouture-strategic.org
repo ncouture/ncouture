@@ -1,6 +1,39 @@
 #+TITLE: Nicolas Couture
 #+AUTHOR: Nicolas Couture
-#+EMAIL: work@stormvault.net
+#+EMAIL: "Nicolas Couture" <work@stormvault.net>
+#+OPTIONS: toc:nil
+#+language:    en
+#+startup:     hidestars
+#+options:     H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t *:t TeX:t author:nil <:t LaTeX:t
+#+property:    header-args :eval no-export
+#+html_head:   <meta name="theme-color" content="#77aa99">
+#+html_head:   <meta property="og:title" content="Nicolas Couture">
+#+html_head:   <meta property="og:type" content="website">
+#+html_head:   <meta property="og:url" content="https://ncouture.github.io">
+#+html_head:   <meta property="og:image" content="resources/img/self.png">
+#+html_head:   <meta property="og:image:alt" content="Nicolas Couture. Seasoned IT professional with over 20 years of experience in on-premises and hybrid cloud environments, contributed to developing and streamlining DevOps practices in the enterprise. Specialized in UNIX-like OSes, system administration, infrastructure automation, configuration management, and security. Proven ability to design, implement, and automate cloud solutions for improved efficiency, security, and scalability. Eager to leverage expertise in Azure, Google Cloud, OCI, and AWS to contribute to innovative cloud initiatives.">
+#+html_head:   <meta property="og:image:type" content="image/png">
+#+html_head:   <meta property="og:image:width" content="1280">
+#+html_head:   <meta property="og:image:height" content="640">
+#+html_head:   <meta property="og:description" content="Nicolas Couture. ">
+#+html_head:   <link rel="alternate" type="application/json+oembed" href="resources/oembed-info.json" title="Org oEmbed Profile" />
+#+html_head:   <meta name="flattr:id" content="8d9x0o">
+#+html_head:   <link rel="apple-touch-icon" sizes="180x180" href="./resources/img/favicons/apple-touch-icon.png">
+#+html_head:   <link rel="icon" type="image/png" sizes="32x32" href="./resources/img/favicons/favicon-32x32.png">
+#+html_head:   <link rel="icon" type="image/png" sizes="16x16" href="./resources/img/favicons/favicon-16x16.png">
+#+html_head:   <link rel="manifest" href="./resources/img/favicons/site.webmanifest">
+#+html_head:   <link rel="mask-icon" href="./resources/img/favicons/safari-pinned-tab.svg" color="#77aa99">
+#+html_head:   <link rel="shortcut icon" href="./resources/img/favicons/favicon.ico">
+#+html_head:   <meta name="msapplication-TileColor" content="#77aa99">
+#+html_head:   <meta name="msapplication-config" content="./resources/img/favicons/browserconfig.xml">
+#+html_head:   <link rel="stylesheet" href="./resources/style/org.min.css" type="text/css" />
+#+description: Nicolas Couture: Seasoned IT professional with over 20 years of experience in on-premises and hybrid cloud environments, contributed to developing and streamlining DevOps practices in the enterprise. Specialized in UNIX-like OSes, system administration, infrastructure automation, configuration management, and security. Proven ability to design, implement, and automate cloud solutions for improved efficiency, security, and scalability. Eager to leverage expertise in Azure, Google Cloud, OCI, and AWS to contribute to innovative cloud initiatives.
+#+html_head: <link rel="stylesheet" href="./resources/style/index.min.css" type="text/css" />
+#+html_head: <link rel="preload" href="./resources/img/org-mode-unicorn.svg" as="image" type="image/svg+xml">
+#+include: "./resources/preamble.html" export html
+#+include: "./resources/normal-outline-3.html" export html
+#+html_head: <link rel="stylesheet" href="./resources/style/org-demo.min.css" type="text/css" />
+#+options: ^:{}
 
 #+begin_quote
 Seasoned IT professional with over 20 years of experience in on-premises and hybrid cloud environments, contributed to developing and streamlining DevOps practices in the enterprise. Specialized in UNIX-like OSes, system administration, infrastructure automation, configuration management, and security. Proven ability to design, implement, and automate cloud solutions for improved efficiency, security, and scalability. Eager to leverage expertise in Azure, Google Cloud, OCI, and AWS to contribute to innovative cloud initiatives.

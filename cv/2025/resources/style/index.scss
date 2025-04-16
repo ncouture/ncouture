@@ -1,0 +1,16 @@
+@import 'variables';
+
+body {
+    margin-top: 0;
+}
+
+@import 'nav-light';
+
+@import 'hero';
+
+.columns .outline-3 {
+    width: 15rem;
+    @media (max-width:950px) {
+        width: 12rem;
+    }
+}
