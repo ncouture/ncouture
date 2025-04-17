@@ -34,7 +34,7 @@
 ║ - Accelerated customer experience with 30% improvement in page load performance                                                                 ║
 ║                                                                                                                                                 ║
 ║ ### Square-Enix | 2018-2019                                                                                                                     ║
-║ Senior DevOps Engineer                                                                                                                      ║
+║ Senior DevOps Engineer                                                                                                                          ║
 ║ - Deployed multi-regional Kubernetes architecture with advanced service mesh capabilities                                                       ║
 ║ - Implemented sophisticated canary deployment system mitigating release risk                                                                    ║
 ║                                                                                                                                                 ║
