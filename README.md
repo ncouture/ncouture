@@ -44,7 +44,7 @@
     <h2>Nicolas Couture</h2>
     <p>Highly self-driven, result oriented experienced IT professional with unparalleled organizational
       skills, and enterprise intelligence with a proven track record in Linux, security, and
-      perational excellence. Experienced in managing mission-critical systems,
+      operational excellence. Experienced in managing mission-critical systems,
       automating infrastructure as code, developing and automating solid software,
       systems, and software delivery solutions.
     </p>
