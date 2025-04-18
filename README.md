@@ -82,7 +82,7 @@
     </p>
     <h3>Fancy a short video call to chat and get to know each other?</h3>
     <p>
-      Use my self-service calendar, and <a href="https://calendar.app.google/2S5gpNuuqa1p5MZf8">book me in a video call</a> right here today.
+      Use my self-service calendar, and <a href="https://calendar.app.google/2S5gpNuuqa1p5MZf8">book me in a video call</a> with me today.
     </p>
     <!-- <p> -->
       <!--   Let's create something great together! 🌳 -->
