@@ -1,52 +1,144 @@
-% Created 2025-04-15 Tue 09:30
+% Created 2025-04-17 Thu 02:10
 % Intended LaTeX compiler: pdflatex
-\documentclass[11pt]{scrlttr2}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
 \usepackage{graphicx}
 \usepackage{longtable}
 \usepackage{wrapfig}
 \usepackage{rotating}
 \usepackage[normalem]{ulem}
 \usepackage{amsmath}
+\usepackage{textcomp}
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
-\KOMAoption{fromemail}{false}
-\KOMAoption{fromphone}{false}
-\KOMAoption{fromurl}{false}
-\KOMAoption{fromlogo}{false}
-\KOMAoption{backaddress}{false}
-\setkomavar{place}{}
-\KOMAoptions{foldmarks=true}
-\LoadLetterOption{NF}
-\setkomavar{fromname}{Nicolas Couture}
-\setkomavar{fromemail}{"Nicolas Couture" <work@stormvault.net>}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{minted}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage{float}
+\usepackage{soul}
+\usepackage{microtype}
+\usepackage{mdframed}
+
+% Page geometry
+\geometry{margin=1.0in}
+
+% Define colors
+\definecolor{primarycolor}{RGB}{0, 103, 149}
+\definecolor{secondarycolor}{RGB}{70, 142, 175}
+\definecolor{accentcolor}{RGB}{255, 128, 0}
+\definecolor{lightgray}{RGB}{240, 240, 240}
+\definecolor{codebg}{RGB}{247, 247, 247}
+
+% Font configuration using PragmataPro fonts
+
+\setmainfont{PragmataProR_liga_0830.otf}[
+  Path = /home/strmvlt/.fonts/,
+  Extension = .otf,
+  UprightFont = PragmataProMonoLiga-Regular
+  BoldFont = *-0830,
+  ItalicFont = *-0830,
+  LightFont = *-0830
+]
+\setsansfont{PragmataProR_0830}[
+  Path = /home/strmvlt/.fonts/,
+  UprightFont = PragmataPro-Regular
+  Extension = .otf
+]
+\setmonofont{PragmataPro_Mono_R_liga}[
+  Path = /home/strmvlt/.fonts/,
+  UprightFont = PragmataProMonoLiga-Regular,
+  Extension = .otf
+]
+
+% Header and footer styling
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textit{\nouppercase{\leftmark}}}
+\rhead{\thepage}
+\lfoot{\today}
+\rfoot{\textsc{Author: \theauthor}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% Section formatting
+\titleformat*{\section}{\Large\bfseries\color{primarycolor}}
+\titleformat*{\subsection}{\large\bfseries\color{secondarycolor}}
+\titleformat*{\subsubsection}{\normalsize\bfseries\color{secondarycolor}}
+
+% Hyperlink styling
+\hypersetup{
+  colorlinks=true,
+  linkcolor=primarycolor,
+  filecolor=accentcolor,
+  citecolor=secondarycolor,
+  urlcolor=accentcolor,
+  pdftitle={\thetitle},
+  pdfauthor={\theauthor},
+  pdfsubject={\thesubject},
+  pdfkeywords={org-mode, latex, pdf}
+}
+
+% Title page styling
+\pretitle{\begin{center}\LARGE\color{primarycolor}}
+\posttitle{\end{center}\vskip 0.5em}
+\preauthor{\begin{center}\large\color{secondarycolor}}
+\postauthor{\end{center}}
+\predate{\begin{center}\large}
+\postdate{\end{center}\vskip 2em}
+
+% Table styling
+\arrayrulecolor{primarycolor}
+\renewcommand{\arraystretch}{1.2}
+
+% Custom environments
+\newenvironment{note}{%
+  \begin{mdframed}[linecolor=secondarycolor,backgroundcolor=lightgray,linewidth=1pt]
+  \textbf{Note: }
+}{%
+  \end{mdframed}
+}
+
+\newenvironment{warning}{%
+  \begin{mdframed}[linecolor=accentcolor,backgroundcolor=lightgray,linewidth=1pt]
+  \textbf{Warning: }
+}{%
+  \end{mdframed}
+}
 \date{\today}
+\title{Nicolas C.}
 \hypersetup{
  pdfauthor={Nicolas Couture},
- pdftitle={Nicolas Couture},
+ pdftitle={Nicolas C.},
  pdfkeywords={},
- pdfsubject={},
+ pdfsubject={Nicolas Couture: Seasoned IT professional with over 20 years of experience in on-premises and hybrid cloud environments, contributed to developing and streamlining DevOps practices in the enterprise. Specialized in UNIX-like OSes, system administration, infrastructure automation, configuration management, and security. Proven ability to design, implement, and automate cloud solutions for improved efficiency, security, and scalability. Eager to leverage expertise in Azure, Google Cloud, OCI, and AWS to contribute to innovative cloud initiatives.},
  pdfcreator={Emacs 30.1 (Org mode 9.7.11)}, 
  pdflang={English}}
 \begin{document}
 
-\setkomavar{title}{Nicolas Couture}
-
-\begin{letter}{%
-\mbox{}}
-
-\opening{Skills \& Expertise}
-
+\maketitle
 \begin{quote}
 Seasoned IT professional with over 20 years of experience in on-premises and hybrid cloud environments, contributed to developing and streamlining DevOps practices in the enterprise. Specialized in UNIX-like OSes, system administration, infrastructure automation, configuration management, and security. Proven ability to design, implement, and automate cloud solutions for improved efficiency, security, and scalability. Eager to leverage expertise in Azure, Google Cloud, OCI, and AWS to contribute to innovative cloud initiatives.
 \end{quote}
+\section*{Skills \& Expertise}
+\label{sec:org3c4b87d}
+
+\subsection*{Cloud Service Providers}
+\label{sec:org2b09839}
 \begin{itemize}
 \item Google Cloud Platform
 \item Azure
 \item AWS
 \end{itemize}
+\subsection*{DevOps \& SRE}
+\label{sec:org008fac7}
 \begin{itemize}
 \item CI/CD pipelines
 \item Infrastructure automation
@@ -56,23 +148,36 @@ Seasoned IT professional with over 20 years of experience in on-premises and hyb
 \item ARM, Bicep, Vault, Packer
 \item PowerShell, YAML, ELisp
 \end{itemize}
+\subsection*{Security}
+\label{sec:org35cef35}
 \begin{itemize}
 \item Identity and Access Management (IAM)
 \item Privileged Access Management (PAM)
 \item Secret Management
 \end{itemize}
+\subsection*{Linux Administration}
+\label{sec:org532f814}
 \begin{itemize}
 \item Standard Internet Services
 \item Database Administration
 \item Debian, RHEL, Ubuntu
 \end{itemize}
+\subsection*{Containerization}
+\label{sec:org3e8ee75}
 \begin{itemize}
 \item Docker, Compose, Swarm
 \item Kubernetes
 \end{itemize}
+\subsection*{Monitoring \& Troubleshooting}
+\label{sec:org177af74}
 \begin{itemize}
 \item Proactive approach to system health and performance
 \end{itemize}
+\section*{Professional Experience}
+\label{sec:org463e122}
+
+\subsection*{Founding CTO - Stormvault Networks}
+\label{sec:org2bb4ac8}
 \begin{itemize}
 \item Offering expert services in building resilient engineering teams
 \item Implementing robust platforms and developing reliable products
@@ -88,6 +193,8 @@ Seasoned IT professional with over 20 years of experience in on-premises and hyb
 \item IAM, PAM, ABAC, Azure AD, LDAP, WIF, Secret Management, Kerberos, SAML, OAuth, OpenID Connect, RBAC, MFA, Active Directory, RADIUS, SCIM, PKI, Certificate Management, Single Sign-On (SSO), Identity Federation, and Privileged Access Management
 \end{itemize}
 \end{itemize}
+\subsection*{Senior Hybrid-Cloud Infrastructure Engineer, Ubisoft Canada | 2023-2024}
+\label{sec:org2af6ddd}
 \begin{itemize}
 \item Designed and implemented robust hybrid cloud solutions for Ubisoft's game development environment, leveraging Azure expertise
 \item Automated provisioning, configuration management, and application deployments using Azure DevOps pipelines across a hybrid multi-cloud Dotnet microservices infrastructure
@@ -99,6 +206,8 @@ Seasoned IT professional with over 20 years of experience in on-premises and hyb
 \end{itemize}
 
 \textbf{Technologies}: Linux, DevOps, Google Cloud, Google Kubernetes Engine, Python, Locust, E2E/End-to-End Load Tests, Advanced GitLab CI/CD pipelines, HashiCorp Vault, Writing Dockerfiles, Automating builds, Advanced CI/CD pipelines, GitLab, Secret Management, Alibaba Cloud, IAM, PAM, Azure DevOps, ARM Templates, Bicep, Anthos Service Mesh, Terraform, AWS, Hybrid Cloud Solutions, MCI, Google Load Balancers (GCLB/ILB)
+\subsection*{Senior Developer Productivity Engineer, Invue Security Products | 2021-2023 (remote)}
+\label{sec:orgf21f585}
 \begin{itemize}
 \item Joined Invue at a strategic time when the Software Engineering department was focused on converting a Node.js monolith into microservices
 \item Migrated the monolith's legacy infrastructure from AWS to Google Cloud, transitioning from inefficient, costly Compute Engine instances to Kubernetes
@@ -112,6 +221,8 @@ Seasoned IT professional with over 20 years of experience in on-premises and hyb
 \end{itemize}
 
 \textbf{Technologies}: JavaScript, TypeScript, Advanced Build Processes, Security, Secret Management, Identity and Access Management, Docker, Github, Github Actions, Kubernetes, Google Kubernetes Service, Azure Kubernetes Service, Amazon Kubernetes Services, Spinnaker, Automation, BASH, Terraform, Terraform Cloud, Hashicorp Vault, Linux, DevOps
+\subsection*{Google Cloud Integrator, Big Data \& Artificial Intelligence, Innovation \& AI Team, Desjardins | 2020-2021 (remote)}
+\label{sec:org7f8c71d}
 \begin{itemize}
 \item Collaborated within a multidisciplinary team to enhance security for Desjardins' Big Data solutions in Google Cloud Platform, Google Workspace, and Google Marketing solutions (Analytics, AdWords, Search Console, Maps)
 \item Led a large-scale account and access management migration project, synchronizing Desjardins' user identities for Single Sign-On (SSO) and transitioning access from user-owned to corporate accounts, ensuring uninterrupted service for thousands of users
@@ -122,6 +233,8 @@ Seasoned IT professional with over 20 years of experience in on-premises and hyb
 \end{itemize}
 
 \textbf{Technologies}: Google Cloud Identity, Active Directory, LDAP, SAML, Terraform, Vault, Linux, GitLab, BigQuery, BASH, Python, Cloud Operations, Apache Beam, Apache Airflow
+\subsection*{E-commerce Information System Environment Manager, Decathlon | 2019-2020}
+\label{sec:orga0a7c6e}
 \begin{itemize}
 \item Ensured e-commerce infrastructure availability around the clock
 \item Maintained infrastructure-as-code and performed manual system administration on legacy infrastructures
@@ -132,17 +245,23 @@ Seasoned IT professional with over 20 years of experience in on-premises and hyb
 \end{itemize}
 
 \textbf{Technologies}: Terraform, Linux, Gitlab, Docker, Docker Compose, Kubernetes, AWS, GCP, Apache, NGINX, Python, PHP, BASH, Django, Redis, Github Actions, Slack API
+\subsection*{Senior DevOps Engineer, Square-Enix | 2018-2019}
+\label{sec:orgce6bbac}
 \begin{itemize}
 \item Deployed and configured multi-regional Kubernetes clusters with Istio service mesh using Google Kubernetes Engine, and Helm
 \item Implemented multi-regional, Spinnaker k8s clusters for continuous delivery and canary deployments with automated pipelines triggered by container image tags
 \end{itemize}
 
 \textbf{Technologies}: Google Kubernetes Engine (GKE), Istio Service Mesh, Helm, Spinnaker, NGINX Load Balancer, Istio RouteRules, Private Container Registry, Kubernetes, Continuous Delivery, Canary Deployments, Blue/Green Deployments, Automated Pipelines
+\subsection*{Founder, Kisscalls | 2016-2018}
+\label{sec:org6a45116}
 \begin{itemize}
 \item Founded a next-generation business assistant as a service business—\url{https://www.kisscalls.com—bridging} the gap between online to offline conversions
 \end{itemize}
 
 \textbf{Technologies}: Python, Django, REST framework, OAuth2, Dialogflow, Google Assistant, App Engine, Polymer, Material Design, WebRTC, Firebase Hosting, Firebase Database, Cloud Functions, Express.js, Twilio, GCP, Github, Google Data Studio, Sendgrid
+\subsection*{IT and Medical Imaging Consultant, Dossier santé Québec M.S.S.S. | 2015}
+\label{sec:org315bcfe}
 \begin{itemize}
 \item Acceptance testing of provincial-wide, multi-vendor, RIS, PACS, DIR solution
 \item Installation and migration of large scale on-prem Oracle databases servers with replication across 3 central locations in the province of Quebec via private WAN
@@ -151,32 +270,44 @@ Seasoned IT professional with over 20 years of experience in on-premises and hyb
 \end{itemize}
 
 \textbf{Technologies}: Linux, DICOM, HL7, RIS, PACS, XDS, Python, BASH, Agfa IMPAX, dcm4chee
+\subsection*{Enterprise Infrastructure Associate, Morgan Stanley | 2014-2016}
+\label{sec:org5ff822e}
 \begin{itemize}
 \item Supported 5 enterprise web portals (50k daily users)
 \end{itemize}
 
 \textbf{Technologies}: Linux, Tomcat, Java, PostgreSQL, Adobe Experience Manager, Oracle Database Server on-prem administration, Python, BASH, Identity and Access Management
+\subsection*{Solutions Architect, Hitachi ID Systems | 2012-2014}
+\label{sec:org02c97c6}
 \begin{itemize}
 \item Tailored identity and access management solution for fortune 500 companies
 \end{itemize}
 
 \textbf{Technologies}: Windows Server, Active Directory, Database Management, Oracle Database <12, Lotus Notes, Solaris, Linux, AS/400, LDAP, Python, Twisted, Identity and Access Management, HTML, \LaTeX{}, m4, BASH
+\subsection*{Integration Specialist, Technidata Medical Software | 2009-2012}
+\label{sec:org3fc7d15}
 \begin{itemize}
 \item Deployed laboratory information systems
 \end{itemize}
 
 \textbf{Technologies}: Windows 2008 R2, RedHat Enterprise Linux, Solaris, AIX
+\subsection*{Deployment Specialist and PACS Analyst, Intelerad | 2005-2008}
+\label{sec:org8624400}
 \begin{itemize}
 \item Deployed and upgraded large scale digital radiology software (100+ servers, 300+ RPMs)
 \item Investigated and documented system issues working closely with developers
 \end{itemize}
 
 \textbf{Technologies}: Linux, RHEL, BASH, Perl, Python, DICOM, HL7
+\subsection*{Linux System Administrator Internship, Commission Scolaire de Montreal + other employments | 2002-2004}
+\label{sec:orge895621}
 \begin{itemize}
 \item Installation, configuration, and administration of Linux servers, Linux Terminal Server (thinclients), shell scripting automation
 \end{itemize}
 
 \textbf{Technologies}: Debian, RedHat, Cyrus, LTSP, Sendmail, Popa3d, Courier-IMAP, Bind (DNS), Yellow Pages (NIS), Firewall (IPTables), Nagios, Postfix, PostgreSQL
+\section*{Contact Information}
+\label{sec:orgf904c68}
 \begin{itemize}
 \item Phone: +1-514-688-7124
 \item Email: work@stormvault.net
@@ -184,6 +315,8 @@ Seasoned IT professional with over 20 years of experience in on-premises and hyb
 \item \href{https://github.com/ncouture}{Github}
 \item Calendar: \href{https://calendar.app.google/WjxXaKGdbnXUkaf8A}{Book me online}
 \end{itemize}
+\section*{Top Skills}
+\label{sec:orga6a629c}
 \begin{itemize}
 \item Linux
 \item BASH
@@ -197,12 +330,16 @@ Seasoned IT professional with over 20 years of experience in on-premises and hyb
 \item Containerization
 \item Cloud Native Technologies
 \end{itemize}
+\section*{Regulatory Frameworks Experience}
+\label{sec:org9ed1337}
 \begin{itemize}
 \item GDPR
 \item ISO 27001
 \item HIPAA
 \item PCI DSS
 \end{itemize}
+\section*{Certifications}
+\label{sec:orgc687116}
 \begin{itemize}
 \item Linux Professional (Canonical)
 \item Microsoft Security Professional (\href{https://www.linkedin.com/learning/certificates/ee3a4639802b3dc095cb238c027ee834d835bdc7805a53a60d018d2e00e9a7ba}{Microsoft}) - January 2025
@@ -219,6 +356,8 @@ Seasoned IT professional with over 20 years of experience in on-premises and hyb
 \item Linux Administration (Savoir-faire Linux) - Issued 2001
 \item Linux Basics (Savoir-faire Linux) - Issued 2001
 \end{itemize}
+\section*{Google Cloud Badges}
+\label{sec:orgf46707c}
 \begin{itemize}
 \item \href{https://www.cloudskillsboost.google/public\_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8}{Google Developer Profile}
 \item Preparing for your Professional Cloud Architect Journey (\href{https://www.cloudskillsboost.google/public\_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/9576010}{Google}) - Jun. 2024
@@ -229,16 +368,11 @@ Seasoned IT professional with over 20 years of experience in on-premises and hyb
 \item Kubernetes in Google Cloud (\href{https://www.cloudskillsboost.google/public\_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/205644}{Google}) - Feb. 2020
 \item Baseline: Data, ML, AI (\href{https://www.cloudskillsboost.google/public\_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/205617}{Google}) - Feb. 2020
 \end{itemize}
+\section*{Volunteer Experience}
+\label{sec:org8fd883c}
 \begin{itemize}
 \item PyCon US (Python Software Foundation) - 2015 \& 2016
 \item Linux-Québec / Facil - 2003-2004
 \item M.LU.G. - 1999-2004
 \end{itemize}
-\closing{}
-
-
-
-
-\end{letter}
-
 \end{document}

@@ -2,7 +2,11 @@
 
 > Cloud strategist who transforms technical complexity into business advantage. 20+ years navigating the intersection of infrastructure, security, and innovation. I don't just implement systems—I reimagine them.
 
+<i>Abridged Curriculum</i>
+
 ## Strategic Impact
+
+### Stormvault Networks | 2024-2025
 
 ### Ubisoft Canada | 2023-2024
 **Senior Hybrid-Cloud Infrastructure Engineer**
