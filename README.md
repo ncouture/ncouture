@@ -2,7 +2,7 @@
   <a href="https://linkedin/in/nicolascouture">Nicolas Couture</a>
 </h1>
 
-<h4 align="center">President & CTO</h4>
+<h4 align="center">Founding CTO</h4>
 
 <h3 align="center">
   <a href="https://www.stormvault.net">
