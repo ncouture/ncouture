@@ -10,7 +10,7 @@
  - https://github.com/ncouture/ncouture/blob/main/cv/2025/NicolasCouture-strategic.md#nicolas-couture
 *** Previous, unmaintained CV (loded with technologies used in each of my previous mandates and roles)
  - https://raw.githubusercontent.com/ncouture/ncouture/refs/heads/main/cv/2025/NicolasCouture-full.pdf
-** Online presences
+** Online presence
 *** LinkedIn
  - https://www.linkedin.com/in/nicolascouture/
 *** GitHub
