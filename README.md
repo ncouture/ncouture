@@ -24,6 +24,8 @@
       <source media="(prefers-color-scheme: dark)" src="https://github-readme-stats.vercel.app/api/top-langs?username=ncouture&theme=tokyo-night&layout=donut&hide=c%%2B%2B,lua,css,html,perl,go,c%2B%2B,c,max,oz,objective-c,assembly,tex&langs_count=5&border_radius=5&show_icons=true&locale=en" alt="ncouture's Most Used Languages" />
     </picture>
   </div>
+</div>
+
 
   <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
     
@@ -39,8 +41,6 @@
       <img alt="Shows a snake consuming the squares from the rootiest contributions graph." src="output/github-snake.svg">
     </picture>
   </div>
-
-  <div style="text-align: center;">
     <h2>Nicolas Couture</h2>
     <p>Highly self-driven, result oriented experienced IT professional with unparalleled organizational
       skills, and enterprise intelligence with a proven track record in Linux, security, and
@@ -89,11 +89,15 @@
       <!-- </p -->
   </div>
 </div>
-<div style="text-align: center;">
-  <h2>Nicolas Couture</h2>
-  <ul>
-    <li>
-      <a href="https://linkedin.com/in/nicolascouture">Nicolas Couture</a> - <b>Your Expert Cloud Partner</b>
+
+<div style="text-align: left;">
+ <div style="text-align: left;">
+    <div align="left">
+      <a href="https://www.linkedin.com/in/nicolascouture/?trk=public-profile-badge-profile-badge-view-profile-cta&originalSubdomain=www&trk=homepage-basic_google-one-tap-submit&ved=2ahUKEwid1cnLj_-MAxWNv4kEHa9IJeMQFnoECBoQAQ&usg=AOvVaw1S_oRzzGUY-ogEjTB7s7tX#profile-content"><img src="https://github.com/ncouture/ncouture/blob/main/nicolas-couture-linkedin-badge.png" /></a>
+      <h2>
+        <a class="profile-badge__cta-btn profile-badge__cta-btn--dark" href="https://www.linkedin.com/in/nicolascouture/?trk=public-profile-badge-profile-badge-view-profile-cta&originalSubdomain=www&trk=homepage-basic_google-one-tap-submit&ved=2ahUKEwid1cnLj_-MAxWNv4kEHa9IJeMQFnoECBoQAQ&usg=AOvVaw1S_oRzzGUY-ogEjTB7s7tX#profile-content">
+          Nicolas Couture</a> - <b>Your Expert Cloud Partner</b></h2>
+  </a>
     </li>
     <li>
       <a href="mailto:work@stormvault.net">
@@ -108,8 +112,8 @@
   </ul>
 </div>
 
-<div style="text-align: center;">
-  <h2>My AI Assistant Working Remotely</h2>
+<!-- <div style="text-align: center;">
+  <h2>My Personal AI Assistant Working Remotely</h2>
   <p>
     Yes, I do use AI in enterprises when it's not prohibited. Here's my AI Assistant:
   </p>
@@ -119,4 +123,4 @@
   <p>Visitor count</p>
   <img src="https://profile-counter.glitch.me/ncouture/count.svg" alt="Visitor's Count" />
 </div>
-</div>
+</div> -->
