@@ -13,7 +13,7 @@
 <div align="center">
   <a href="https://www.stormvault.net/"><img width="128" height="128" src="https://github.com/ncouture/ncouture/blob/main/imgs/stormvault-networks-256x256.png" /></a>
 </div>
-<h5 align="center">North American - Montréal, Québec, Canada</h5>
+<h5 align="center">North America - Montréal, Québec, Canada</h5>
 
 <div style="display: flex; flex-direction: column; align-items: center; font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; color: #333;">
   <div style="text-align: center;">
@@ -34,13 +34,14 @@
     <!--   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ncouture&theme=tokyo-night&hide_border=true" alt="Activity graph"> -->
     <!-- </a> -->
 
-  <div style="text-align: center;">
+  <!-- div style="text-align: center;">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="output/github-snake-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="output/github-snake.svg">
       <img alt="Shows a snake consuming the squares from the rootiest contributions graph." src="output/github-snake.svg">
     </picture>
-  </div>
+  </div -->
+  <div>
     <h2>Nicolas Couture</h2>
     <p>Highly self-driven, result oriented experienced IT professional with unparalleled organizational
       skills, and enterprise intelligence with a proven track record in Linux, security, and
