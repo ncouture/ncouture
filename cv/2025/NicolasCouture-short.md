@@ -7,6 +7,10 @@
 ## Strategic Impact
 
 ### Stormvault Networks | 2024-2025
+**Founding CTO**
+Secretly the version 2.0 of my first startup, namely Kisscalls (https://www.kisscalls.com), abandoned in 2018.
+
+With the advent of AI and the though time I am having finding an ideal position or contract, I keep myself busy working on this project until it is successful or I find the perfect role to continue working as FTE or contractor in a position where my experience and abilities are understood.
 
 ### Ubisoft Canada | 2023-2024
 **Senior Hybrid-Cloud Infrastructure Engineer**
