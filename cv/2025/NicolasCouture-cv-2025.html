@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-06-04 Wed 15:47 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nicolas Couture - Linux Administrator, Cloud Native Engineer, DevOps, SRE</title>
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': pnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KJVHBL4H');</script>
+<script src="http://thomasf.github.io/solarized-css/org-info.min.js">
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+// @license-end
+</script>
+
+<script>
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+org_html_manager.set("TOC_DEPTH", "3");
+org_html_manager.set("LINK_HOME", "");
+org_html_manager.set("LINK_UP", "");
+org_html_manager.set("LOCAL_TOC", "0");
+org_html_manager.set("VIEW_BUTTONS", "2");
+org_html_manager.set("MOUSE_HINT", "underline");
+org_html_manager.set("FIXED_TOC", "0");
+org_html_manager.set("TOC", "ti");
+org_html_manager.set("VIEW", "1");
+org_html_manager.setup();  // activate after the parameters are set
+// @license-end
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Nicolas Couture - Linux Administrator, Cloud Native Engineer, DevOps, SRE</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org57415aa">1. Skills &amp; Expertise</a>
+<ul>
+<li><a href="#orgde14ca8">1.1. Cloud Service Providers</a></li>
+<li><a href="#orga9a8e50">1.2. DevOps &amp; SRE</a></li>
+<li><a href="#org44f1d69">1.3. Security</a></li>
+<li><a href="#orgdb332b0">1.4. Linux Administration</a></li>
+<li><a href="#orgfa6af88">1.5. Monitoring &amp; Troubleshooting</a></li>
+</ul>
+</li>
+<li><a href="#org832e39f">2. Professional Experience</a>
+<ul>
+<li><a href="#orgdd46fb8">2.1. Founding CTO - Stormvault Networks</a></li>
+<li><a href="#org5f19843">2.2. Senior Hybrid-Cloud Infrastructure Engineer, Ubisoft Canada | 2023-2024</a></li>
+<li><a href="#org68794b9">2.3. Senior Developer Productivity Engineer, Invue Security Products | 2021-2023 (remote)</a></li>
+<li><a href="#org8d673a4">2.4. GCP / Workspace Cloud Identity and Access Management Consultant / Google Cloud Integrator, Big Data &amp; Artificial Intelligence, Innovation &amp; AI Team, Desjardins | 2020-2021 (remote)</a></li>
+<li><a href="#org0cd960e">2.5. E-commerce Information System Environment Manager, Decathlon | 2019-2020</a></li>
+<li><a href="#org8db74af">2.6. Senior DevOps Engineer, Square-Enix | 2018-2019</a></li>
+<li><a href="#org213f5a0">2.7. Founder, Kisscalls | 2016-2018</a></li>
+<li><a href="#org84dda4d">2.8. IT and Medical Imaging Consultant, Dossier santé Québec M.S.S.S. | 2015</a></li>
+<li><a href="#org5b360ee">2.9. Enterprise Infrastructure Associate, Morgan Stanley | 2014-2016</a></li>
+<li><a href="#org32bcfcd">2.10. IAM &amp; PAM Solutions Architect, Hitachi ID Systems | 2012-2014</a></li>
+<li><a href="#org922d535">2.11. Integration Specialist, Technidata Medical Software | 2009-2012</a></li>
+<li><a href="#orgc3c558e">2.12. Deployment Specialist and PACS Analyst, Intelerad | 2005-2008</a></li>
+<li><a href="#org4fac596">2.13. Linux System Administrator Internship, Commission Scolaire de Montreal + other employments | 2002-2004</a></li>
+</ul>
+</li>
+<li><a href="#orgecba4a0">3. Top Skills</a></li>
+<li><a href="#orgfb709c2">4. Regulatory Frameworks Experience</a></li>
+<li><a href="#org12ceafa">5. Certifications</a>
+<ul>
+<li><a href="#orgfc6b3e9">5.1. Google Cloud</a></li>
+</ul>
+</li>
+<li><a href="#org7ee8ebd">6. Education - Continuous Learning Journey</a></li>
+<li><a href="#org6b6d28d">7. Volunteer Experience</a></li>
+<li><a href="#orgccbe5e6">8. Contact Information</a></li>
+</ul>
+</div>
+</div>
+<p>
+Nicolas Couture - Linux, BASH, Python, JS, TS, Cloud, DevOps, SRE, Network, Security IAM/PAM
+</p>
+<div id="outline-container-org57415aa" class="outline-2">
+<h2 id="org57415aa"><span class="section-number-2">1.</span> Skills &amp; Expertise</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+<i>Highly self-driven, highly organized expert with 20 years of professional experience working primarily on systems and infrastructures powered by Linux since 2001 and infratructures, experienced with Window in the context of Identity, Access, and Privileged Access management (AD, Azure AD, LDAP, SAML), worked with on-premises up to hybrid cloud environments, contributed to developing and streamlining DevOps and SRE practices in the enterprise. Specialized in UNIX-like OSes, system administration, infrastructure automation, configuration management, and security. Proven ability to design, implement, and automate cloud solutions for improved efficiency, security, and scalability. Eager to leverage expertise in Azure, Google Cloud, OCI, and AWS to contribute to innovative cloud initiatives. Have been on the fron-line of innovation surronding Linux occupying roles directly involved in developing and working with the new tools of the trade as they became stremline, all the way to container orchestration I understand every step necessary to execute a single step in a CI/CD pipeline, all the way down to the Kernel functionalities and Linux software and tools required to execute them.</i>
+</p>
+
+<p>
+<b>Preferred method of contact is &lt;a href=&ldquo;tel:+1-514-688-7124&rdquo;&gt;by phone&lt;/a&gt;.</b>
+</p>
+</div>
+<div id="outline-container-orgde14ca8" class="outline-3">
+<h3 id="orgde14ca8"><span class="section-number-3">1.1.</span> Cloud Service Providers</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Google Cloud Platform</li>
+<li>Azure</li>
+<li>AWS</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga9a8e50" class="outline-3">
+<h3 id="orga9a8e50"><span class="section-number-3">1.2.</span> DevOps &amp; SRE</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>CI/CD pipelines</li>
+<li>Infrastructure automation</li>
+<li>BASH, Python, HCL</li>
+<li>Docker, Podman, Containers</li>
+<li>Terraform, Infrastructure as Code (IaC)</li>
+<li>ARM, Bicep, Vault, Packer</li>
+<li>PowerShell, YAML, ELisp</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org44f1d69" class="outline-3">
+<h3 id="org44f1d69"><span class="section-number-3">1.3.</span> Security</h3>
+<div class="outline-text-3" id="text-1-3">
+<ul class="org-ul">
+<li>Identity and Access Management (IAM)</li>
+<li>Privileged Access Management (PAM)</li>
+<li>Secret Management</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgdb332b0" class="outline-3">
+<h3 id="orgdb332b0"><span class="section-number-3">1.4.</span> Linux Administration</h3>
+<div class="outline-text-3" id="text-1-4">
+<ul class="org-ul">
+<li>Linux Kernel</li>
+<li>Packaging (DEBs, RPMs)</li>
+<li>Managing Standard Internet Services</li>
+<li>Networking</li>
+<li>Database Administration</li>
+<li>Debian, RHEL</li>
+<li>Security / Hardening</li>
+<li>Configuration Automation</li>
+<li>Deployment Automation</li>
+<li>Containerization
+<ul class="org-ul">
+<li>Docker, Podman</li>
+<li>Compose, Swarm, Kubernetes</li>
+</ul></li>
+<li>Orchestration</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfa6af88" class="outline-3">
+<h3 id="orgfa6af88"><span class="section-number-3">1.5.</span> Monitoring &amp; Troubleshooting</h3>
+<div class="outline-text-3" id="text-1-5">
+<ul class="org-ul">
+<li>Proactive approach to system health and performance</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org832e39f" class="outline-2">
+<h2 id="org832e39f"><span class="section-number-2">2.</span> Professional Experience</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgdd46fb8" class="outline-3">
+<h3 id="orgdd46fb8"><span class="section-number-3">2.1.</span> Founding CTO - Stormvault Networks</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>Offering expert services in building resilient teams</li>
+<li>Implementing automation tools for small and medium businesses</li>
+<li>Develop workshops on my latest deliveries</li>
+<li>Increase team expertise by developing and presenting workshops</li>
+<li>Serious about performance and strong team player</li>
+<li>Building, optimizing, and troubleshooting:</li>
+</ul>
+
+<p>
+<b><b>Technologies</b></b>: Software development, Terraform IaaC, BASH, Github Actions CI/CD pipelines, Google Cloud, Architecting Asynchrounous Event-Driven Workflows, IAM, PAM, WIF, ABAC, RBAC, Secret Management, OAuth2 Client and Provider, OpenID Connect, MFA, Certificate Management, Single Sign-On (SSO), Identity Federation, and Privileged Access Management
+</p>
+</div>
+</div>
+<div id="outline-container-org5f19843" class="outline-3">
+<h3 id="org5f19843"><span class="section-number-3">2.2.</span> Senior Hybrid-Cloud Infrastructure Engineer, Ubisoft Canada | 2023-2024</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li>Designed and implemented robust hybrid cloud solutions for Ubisoft&rsquo;s game development environment, leveraging Azure expertise</li>
+<li>Automated provisioning, configuration management, and application deployments using Azure DevOps pipelines across a hybrid multi-cloud Dotnet microservices infrastructure</li>
+<li>Managed infrastructure as code (IaC) with Bicep and Terraform, ensuring consistent, scalable deployments across on-premises, Azure, Google Cloud, and AWS environments</li>
+<li>Collaborated with senior development managers to integrate Azure, GCP, AWS, and Alibaba Cloud services, enhancing security and performance of game deployments</li>
+<li>Configured MultiClusterIngress for GKE Services with Anthos Service Mesh, deploying both external and internal Google Load Balancers (GCLB/ILB) for efficient traffic management</li>
+<li>Deployed Locust for comprehensive load testing across regions, simulating millions of user sessions to ensure game readiness, facilitated by ASM ingress gateways</li>
+<li>Improved load-testing deployment processes, cutting deployment time by &gt;50% and reducing errors through optimized CI/CD pipelines, utilizing CI/CD container automation in Gitlab, Hashicorp Vault, Artifact registries, etc.</li>
+</ul>
+
+<p>
+<b><b>Technologies</b></b>: Linux, DevOps, Google Cloud, Google Kubernetes Engine, Python, Locust, E2E/End-to-End Load Tests, Advanced GitLab CI/CD pipelines, HashiCorp Vault, Writing Dockerfiles, Automating builds, Advanced CI/CD pipelines, GitLab, Secret Management, Alibaba Cloud, IAM, PAM, Azure DevOps, ARM Templates, Bicep, Anthos Service Mesh, Terraform, AWS, Hybrid Cloud Solutions, MCI, Google Load Balancers (GCLB/ILB)
+</p>
+</div>
+</div>
+<div id="outline-container-org68794b9" class="outline-3">
+<h3 id="org68794b9"><span class="section-number-3">2.3.</span> Senior Developer Productivity Engineer, Invue Security Products | 2021-2023 (remote)</h3>
+<div class="outline-text-3" id="text-2-3">
+<ul class="org-ul">
+<li>Joined Invue at a strategic time when the Software Engineering department was focused on converting a Node.js monolith into microservices</li>
+<li>Migrated the monolith&rsquo;s legacy infrastructure from AWS to Google Cloud, transitioning from inefficient, costly Compute Engine instances to Kubernetes</li>
+<li>Facilitated the migration of the microservice architecture running on Kubernetes to Microsoft Azure Cloud</li>
+<li>Architected a streamlined microservice infrastructure by automating the build and containerization of existing microservices</li>
+<li>Developed an MVP of the cluster&rsquo;s infrastructure using Docker Compose, which allowed developers to run the entire setup locally in a consistent and reproducible manner, thereby eliminating the need for shared, costly cloud-based development environments</li>
+<li>Enhanced developer proficiency in DevOps practices as measured by a 100% increase in contributions to CI/CD pipelines skill use by developers after conducting workshops and training sessions</li>
+<li>Implemented CI/CD pipeline processes to improve code quality, security, and automated tests</li>
+<li>Modernized their DevOps practices by adopting sound CI/CD pipelines effectively replacing Ansible with Terraform and brought Terraform Cloud into the enterprise, as well as Hashicorp Vault, leading to significant reductions in manual interventions and enhanced consistency in provisioning</li>
+<li>Elevated security as measured by improved secret management protocols and cloud IAM processes, enhancing the overall security posture</li>
+</ul>
+
+<p>
+<b><b>Technologies</b></b>: JavaScript, TypeScript, Advanced Build Processes, Security, Secret Management, Identity and Access Management, Docker, Github, Github Actions, Kubernetes, Google Kubernetes Service, Azure Kubernetes Service, Amazon Kubernetes Services, Spinnaker, Automation, BASH, Terraform, Terraform Cloud, Hashicorp Vault, Linux, DevOps
+</p>
+</div>
+</div>
+<div id="outline-container-org8d673a4" class="outline-3">
+<h3 id="org8d673a4"><span class="section-number-3">2.4.</span> GCP / Workspace Cloud Identity and Access Management Consultant / Google Cloud Integrator, Big Data &amp; Artificial Intelligence, Innovation &amp; AI Team, Desjardins | 2020-2021 (remote)</h3>
+<div class="outline-text-3" id="text-2-4">
+<ul class="org-ul">
+<li>Collaborated within a multidisciplinary team to enhance security for Desjardins&rsquo; Big Data solutions in Google Cloud Platform, Google Workspace, and Google Marketing solutions (Analytics, AdWords, Search Console, Maps)</li>
+<li>Led a large-scale account and access management migration project, synchronizing Desjardins&rsquo; user identities for Single Sign-On (SSO) and transitioning access from user-owned to corporate accounts, ensuring uninterrupted service for thousands of users</li>
+<li>Developed a governance strategy for unmanaged accounts, eliminating consumer-type accounts with access to corporate resources and ensuring all corporate identities were securely managed</li>
+<li>Automated data mining tasks for user data migration using advanced LDAP queries with Active Directory, enhancing efficiency and accuracy</li>
+<li>Identified and disabled consumer-type accounts, securing Google Cloud resources owned by the firm</li>
+<li>Created proof of concepts to evaluate Big Data solutions for marketing and analytics teams using Google Cloud technologies</li>
+</ul>
+
+<p>
+<b><b>Technologies</b></b>: Google Cloud Identity, Active Directory, LDAP, SAML, Terraform, Vault, Linux, GitLab, BigQuery, BASH, Python, Cloud Operations, Apache Beam, Apache Airflow
+</p>
+</div>
+</div>
+<div id="outline-container-org0cd960e" class="outline-3">
+<h3 id="org0cd960e"><span class="section-number-3">2.5.</span> E-commerce Information System Environment Manager, Decathlon | 2019-2020</h3>
+<div class="outline-text-3" id="text-2-5">
+<ul class="org-ul">
+<li>Ensured e-commerce infrastructure availability around the clock</li>
+<li>Maintained infrastructure-as-code and performed manual system administration on legacy infrastructures</li>
+<li>Designed a multi-cloud solution used to facilitate the migration of the platform to a different cloud vendor</li>
+<li>Centralized application logging and implemented log-based metrics used to create dashboards and visualize data</li>
+<li>Implemented system monitoring and service health checks</li>
+<li>Increased e-commerce average page load speed by &gt;30%</li>
+</ul>
+
+<p>
+<b><b>Technologies</b></b>: Terraform, Linux, Gitlab, Docker, Docker Compose, Kubernetes, AWS, GCP, Apache, NGINX, Python, PHP, BASH, Django, Redis, Github Actions, Slack API
+</p>
+</div>
+</div>
+<div id="outline-container-org8db74af" class="outline-3">
+<h3 id="org8db74af"><span class="section-number-3">2.6.</span> Senior DevOps Engineer, Square-Enix | 2018-2019</h3>
+<div class="outline-text-3" id="text-2-6">
+<ul class="org-ul">
+<li>Deployed and configured multi-regional Kubernetes clusters with Istio service mesh using Google Kubernetes Engine, and Helm</li>
+<li>Implemented multi-regional, Spinnaker k8s clusters for continuous delivery and canary deployments with automated pipelines triggered by container image tags</li>
+</ul>
+
+<p>
+<b><b>Technologies</b></b>: Google Kubernetes Engine (GKE), Istio Service Mesh, Helm, Spinnaker, NGINX Load Balancer, Istio RouteRules, Private Container Registry, Kubernetes, Continuous Delivery, Canary Deployments, Blue/Green Deployments, Automated Pipelines
+</p>
+</div>
+</div>
+<div id="outline-container-org213f5a0" class="outline-3">
+<h3 id="org213f5a0"><span class="section-number-3">2.7.</span> Founder, Kisscalls | 2016-2018</h3>
+<div class="outline-text-3" id="text-2-7">
+<ul class="org-ul">
+<li>Founded a next-generation business assistant as a service business—<a href="https://www.kisscalls.com—bridging">https://www.kisscalls.com—bridging</a> the gap between online to offline conversions</li>
+</ul>
+
+<p>
+<b><b>Technologies</b></b>: Python, Django, REST framework, OAuth2, Dialogflow, Google Assistant, App Engine, Polymer, Material Design, WebRTC, Firebase Hosting, Firebase Database, Cloud Functions, Express.js, Twilio, GCP, Github, Google Data Studio, Sendgrid
+</p>
+</div>
+</div>
+<div id="outline-container-org84dda4d" class="outline-3">
+<h3 id="org84dda4d"><span class="section-number-3">2.8.</span> IT and Medical Imaging Consultant, Dossier santé Québec M.S.S.S. | 2015</h3>
+<div class="outline-text-3" id="text-2-8">
+<ul class="org-ul">
+<li>Acceptance testing of provincial-wide, multi-vendor, RIS, PACS, DIR solution</li>
+<li>Installation and migration of large scale on-prem Oracle databases servers with replication across 3 central locations in the province of Quebec via private WAN</li>
+<li>Automated asynchronous load and conformance tests</li>
+<li>Developed a domain-specific language to automate end-to-end tests by writing YAML instead of a programming language</li>
+</ul>
+
+<p>
+<b><b>Technologies</b></b>: Linux, DICOM, HL7, RIS, PACS, XDS, Python, BASH, Agfa IMPAX, dcm4chee
+</p>
+</div>
+</div>
+<div id="outline-container-org5b360ee" class="outline-3">
+<h3 id="org5b360ee"><span class="section-number-3">2.9.</span> Enterprise Infrastructure Associate, Morgan Stanley | 2014-2016</h3>
+<div class="outline-text-3" id="text-2-9">
+<ul class="org-ul">
+<li>Supported 5 enterprise web portals (50k daily users)</li>
+<li>Performed manual production rollouts on the products I owned</li>
+<li>Automated a subset of these production upgrades and progressive rollouts</li>
+<li>Developed our groups&rsquo; IAM strategy during the first firm-wide rollout of MS&rsquo;s proprietary Identity and Access Management system</li>
+<li>Created a firm-wide wiki that lives on to this day and has had hundreads of daily users during my stay</li>
+</ul>
+
+<p>
+<b><b>Technologies</b></b>: Linux, Organizaional skills, Self-driven, Read and wrote documentation, Tomcat, Java, PostgreSQL, Adobe Experience Manager, Oracle Database Server on-prem administration, Python, BASH, Identity and Access Management
+</p>
+</div>
+</div>
+<div id="outline-container-org32bcfcd" class="outline-3">
+<h3 id="org32bcfcd"><span class="section-number-3">2.10.</span> IAM &amp; PAM Solutions Architect, Hitachi ID Systems | 2012-2014</h3>
+<div class="outline-text-3" id="text-2-10">
+<ul class="org-ul">
+<li>Tailored identity and access management solution for fortune 500 companies</li>
+</ul>
+
+<p>
+<b><b>Technologies</b></b>: Windows Server, Active Directory, Database Management, Oracle Database &lt;12, Lotus Notes, Solaris, Linux, AS/400, LDAP, Python, Twisted, Identity and Access Management, HTML, LaTeX, m4, BASH
+</p>
+</div>
+</div>
+<div id="outline-container-org922d535" class="outline-3">
+<h3 id="org922d535"><span class="section-number-3">2.11.</span> Integration Specialist, Technidata Medical Software | 2009-2012</h3>
+<div class="outline-text-3" id="text-2-11">
+<ul class="org-ul">
+<li>Deployed laboratory information systems</li>
+</ul>
+
+<p>
+<b><b>Technologies</b></b>: Windows 2008 R2, RedHat Enterprise Linux, Solaris, AIX
+</p>
+</div>
+</div>
+<div id="outline-container-orgc3c558e" class="outline-3">
+<h3 id="orgc3c558e"><span class="section-number-3">2.12.</span> Deployment Specialist and PACS Analyst, Intelerad | 2005-2008</h3>
+<div class="outline-text-3" id="text-2-12">
+<ul class="org-ul">
+<li>Deployed and upgraded large scale digital radiology software (100+ servers, 300+ RPMs)</li>
+<li>Investigated and documented system issues working closely with developers</li>
+</ul>
+
+<p>
+<b><b>Technologies</b></b>: Linux, RHEL, BASH, Perl, Python, DICOM, HL7
+</p>
+</div>
+</div>
+<div id="outline-container-org4fac596" class="outline-3">
+<h3 id="org4fac596"><span class="section-number-3">2.13.</span> Linux System Administrator Internship, Commission Scolaire de Montreal + other employments | 2002-2004</h3>
+<div class="outline-text-3" id="text-2-13">
+<ul class="org-ul">
+<li>Installation, configuration, and administration of Linux servers, Linux Terminal Server (thinclients), shell scripting automation</li>
+</ul>
+
+<p>
+<b><b>Technologies</b></b>: Debian, RedHat, Cyrus, LTSP, Sendmail, Popa3d, Courier-IMAP, Bind (DNS), Yellow Pages (NIS), Firewall (IPTables), Nagios, Postfix, PostgreSQL
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgecba4a0" class="outline-2">
+<h2 id="orgecba4a0"><span class="section-number-2">3.</span> Top Skills</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li>Linux</li>
+<li>BASH</li>
+<li>Python</li>
+<li>Security</li>
+<li>Automation</li>
+<li>Collaboration</li>
+<li>Organization</li>
+<li>DevOps Practices</li>
+<li>SRE Practices</li>
+<li>Containerization</li>
+<li>Cloud Native Technologies</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfb709c2" class="outline-2">
+<h2 id="orgfb709c2"><span class="section-number-2">4.</span> Regulatory Frameworks Experience</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li>GDPR</li>
+<li>ISO 27001</li>
+<li>HIPAA</li>
+<li>PCI DSS</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org12ceafa" class="outline-2">
+<h2 id="org12ceafa"><span class="section-number-2">5.</span> Certifications</h2>
+<div class="outline-text-2" id="text-5">
+<ul class="org-ul">
+<li>Linux Professional (Canonical)</li>
+<li>Microsoft Security Professional <a href="https://www.linkedin.com/learning/certificates/ee3a4639802b3dc095cb238c027ee834d835bdc7805a53a60d018d2e00e9a7ba">Microsoft</a> - January 2025</li>
+<li>Microsoft Security: Concepts, Solutions, and AI-Powered Protection <a href="https://www.linkedin.com/learning/certificates/dc3038c0ad5e24a3655ef339a84ae0dff9675d9dfea26fc86aca1b5616c61041">Microsoft</a> - January 2025</li>
+<li>GitHub Professional Certificate <a href="https://www.linkedin.com/learning/certificates/3cec3708ecd52cd57a95ee0992a3280ae39829a47fd3ba671d2cc4a5533b26fe">GitHub</a> - December 2024</li>
+<li>Docker Professional Certificate <a href="https://www.linkedin.com/learning/certificates/e47cf4f9073b8edd949ece7fa926291895bdaffb07e9aabef0f1b195f4c5f938">Docker</a> - October 2024</li>
+<li>Digital Marketing Fundamentals (Google) - Credential ID: <a href="https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code">MMZ UPE 2V8</a></li>
+<li>Startup School (Y Combinator) - Credential ID: <a href="https://www.credential.net/hviasngk#acc.zbGLx98q">10738466</a></li>
+<li>Mobile Site Certification (Google) - Issued May 2017</li>
+<li>Linux Security (Savoir-faire Linux) - Issued 2001</li>
+<li>Linux Administration (Savoir-faire Linux) - Issued 2001</li>
+<li>Linux Basics (Savoir-faire Linux) - Issued 2001</li>
+</ul>
+</div>
+<div id="outline-container-orgfc6b3e9" class="outline-3">
+<h3 id="orgfc6b3e9"><span class="section-number-3">5.1.</span> Google Cloud</h3>
+<div class="outline-text-3" id="text-5-1">
+<ul class="org-ul">
+<li><a href="https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8">Google Developer Profile</a></li>
+<li>Developing a Google SRE Culture <a href="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~KZ9U9HKHX7LJ/CERTIFICATE_LANDING_PAGE~KZ9U9HKHX7LJ.jpeg">Coursera</a></li>
+<li>Reliable Google Cloud Infrastructure: Design and Process (<a href="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6GNGQA7DK4QN/CERTIFICATE_LANDING_PAGE~6GNGQA7DK4QN.jpeg">Coursera</a>)</li>
+<li>Google Cloud Fundamentals: Core Infrastructure (<a href="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6GNGQA7DK4QN/CERTIFICATE_LANDING_PAGE~6GNGQA7DK4QN.jpeg">Coursera</a>)</li>
+<li>Preparing for your Professional Cloud Architect Journey (<a href="https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/9576010">Google</a>) - Jun. 2024</li>
+<li>Generative AI with the Vertex AI Gemini API (<a href="https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/9566471">Google</a>) - Jun. 2024</li>
+<li>Developing a Google SRE Culture (<a href="https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/8105696">Google</a>) - Feb. 2024</li>
+<li>Managing Cloud Infrastructure with Terraform (<a href="https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/6950095">Google</a>) - Jan. 2024</li>
+<li>Google Cloud Fundamentals: Core Infrastructure (<a href="https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/8105696">Google</a>) - Feb. 2024</li>
+<li>Kubernetes in Google Cloud ((<a href="https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/205644">Google</a>)) - Feb. 2020</li>
+<li>Baseline: Data, ML, AI (<a href="https://www.cloudskillsboost.google/public_profiles/4683c2e3-1391-42e9-9bc4-3960af2ef1d8/badges/205617">Google</a>) - Feb. 2020</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org7ee8ebd" class="outline-2">
+<h2 id="org7ee8ebd"><span class="section-number-2">6.</span> Education - Continuous Learning Journey</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>Education: IT Management and Computer Science foundations with focus on UNIX-like operaring systems</li>
+<li>Professional Development: 20+ industry certifications spanning cloud architecture, security, and engineering excellence</li>
+<li>Self-Directed Learning: Consistent investment in emerging technologies through hands-on exploration</li>
+<li>Knowledge Exchange: Regular contributor to technical communities and open-source initiatives</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6b6d28d" class="outline-2">
+<h2 id="org6b6d28d"><span class="section-number-2">7.</span> Volunteer Experience</h2>
+<div class="outline-text-2" id="text-7">
+<ul class="org-ul">
+<li>PyCon US (Python Software Foundation) - 2015 &amp; 2016</li>
+<li>Linux-Québec / Facil - 2003-2004</li>
+<li>M.LU.G. - 1999-2004</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgccbe5e6" class="outline-2">
+<h2 id="orgccbe5e6"><span class="section-number-2">8.</span> Contact Information</h2>
+<div class="outline-text-2" id="text-8">
+<ul class="org-ul">
+<li>Phone: +1-514-688-7124</li>
+<li>Email: work@stormvault.net</li>
+<li>[LinkedIn](<a href="https://www.linkedin.com/in/nicolascouture">https://www.linkedin.com/in/nicolascouture</a>)</li>
+<li>[Github](<a href="https://github.com/ncouture">https://github.com/ncouture</a>)</li>
+<li>Calendar: [Book me online](<a href="https://calendar.app.google/WjxXaKGdbnXUkaf8A">https://calendar.app.google/WjxXaKGdbnXUkaf8A</a>)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2025-06-04 Wed 15:47</p>
+</div>
+</body>
+</html>
