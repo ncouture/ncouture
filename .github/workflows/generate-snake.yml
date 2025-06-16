@@ -1,0 +1,35 @@
+name: GitHub Commit Snake
+
+on:
+  schedule:
+    - cron: "* 0 5,7,13,21,27 */1 *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Ensure output directory exists
+        run: |
+          mkdir -vp output
+
+      - name: Generate GitHub Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            output/github-snake.svg
+            output/github-snake-dark.svg?palette=github-dark
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git fetch -a
+          git commit -m "Updated GitHub Actions Bot"
+          git push

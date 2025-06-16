@@ -1,0 +1,42 @@
+name: Terminal CV Formatter CI
+
+defaults:
+  run:
+    shell: bash
+    working-directory: ./cv/
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+env:
+  SHORT_CV: 2025/NicolasCouture-short.md
+  TERM: xterm+256color
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Downlod dependencies
+        run: |
+          [[ -f "${SHORT_CV}" ]] || {
+            echo "error: file not found: ${SHORT_CV}"
+            exit 1
+          }
+          DEBIAN_FRONTEND=non-interactive sudo apt-get install -qqy md2term
+
+      - name: Nicolas Couture - Simple Markdown CV
+        run: md2term -c -k1 -f $SHORT_CV
+
+      - name: Nicolas Couture - formatter.py
+        run: bin/formatter.py $SHORT_CV
