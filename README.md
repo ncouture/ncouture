@@ -50,7 +50,7 @@
       systems, and software delivery solutions.
     </p>
     <p>
-      My diverse background spans healthcare IT, enterprise security (IAM/PAM) banking, and SaaS entrepreneurship, cloud infrastucture engineering, I loves exploring complex systems, troubleshoot issues, assess their functionalities and security.
+      My diverse background spans healthcare IT, enterprise security (IAM/PAM) banking, and SaaS entrepreneurship, cloud infrastucture engineering, I love exploring complex systems, troubleshoot issues, assess their functionalities and security.
     </p>
   </div>
 
