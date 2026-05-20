@@ -61,10 +61,6 @@ Rooted in UNIX philosophies, I build CI/CD pipelines, optimize workflows, and de
 ### 🛡️ Security Focused:
 Deeply experienced with Identity & Access Management (IAM/PAM), threat modeling, network onitoring, and custom honeypots.
 
-### 📊 GitHub Stats ⚡
-  <a href="#">![Github stats](https://github-readme-stats.vercel.app/api?username=ncouture&theme=blueberry&count_private=true&hide_border=true&line_height=20)</a>
-  <a href="#">![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ncouture&layout=compact&theme=blueberry&count_private=true&hide_border=true)</a>
-
 ## 🤝 Let's Connect
 ```I'm not here to sell you magic; I'm here to roll up my sleeves and help you build lasting, high-quality solutions your business deserves```
 
